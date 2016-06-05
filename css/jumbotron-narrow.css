@@ -45,6 +45,7 @@ body {
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
+  background-color: #104c55; /* nicola */
 }
 .jumbotron .btn {
   padding: 14px 24px;
@@ -74,8 +75,27 @@ body {
   }
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
-    border-bottom: 0;
-	background-color: yellow;
-	font: Garamond, Helvetica
+    border-bottom: 0; 
   }
+  
+}
+
+/* nicola llama sprites from that bob guy's art */
+ul.sprite {
+/*	background: url("images/the_return_of_the_llama_by_gotbob.png") no-repeat;*/
+	height: 18px; /* distance between menu and jumbotron 
+	width: auto;
+	display: inline-block; */
+	list-style-type: none;
+} 
+
+ul.sprite li a {
+	background: url("images/nerd.png"); /* url("images/the_return_of_the_llama_by_gotbob.png") no-repeat;*/
+	height: 180px;
+	width: auto;
+	display: inline-block;
+	color: yellow;
+}
+ul.sprite li.llama a {
+	background-position: -200px -300px;
 }
