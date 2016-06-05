@@ -12,6 +12,10 @@ html {
 body {
   margin: 0;
 }
+
+div {
+	margin-left: 40px;
+}
 article,
 aside,
 details,
