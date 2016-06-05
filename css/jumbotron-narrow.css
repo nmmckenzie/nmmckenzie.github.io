@@ -81,21 +81,42 @@ body {
 }
 
 /* nicola llama sprites from that bob guy's art */
-ul.sprite {
-/*	background: url("images/the_return_of_the_llama_by_gotbob.png") no-repeat;*/
-	height: 18px; /* distance between menu and jumbotron 
-	width: auto;
-	display: inline-block; */
-	list-style-type: none;
-} 
-
-ul.sprite li a {
-	background: url("images/nerd.png"); /* url("images/the_return_of_the_llama_by_gotbob.png") no-repeat;*/
-	height: 180px;
-	width: auto;
+.llsprite  {
+	background-image: url("spritesheet.png") top left no-repeat;
+	height: 50px;
 	display: inline-block;
-	color: yellow;
+	background-position: -10 -10;
+	background: yellow;
 }
-ul.sprite li.llama a {
-	background-position: -200px -300px;
+a.llsprite:hover  {
+	background-image: url("pirate.png") top left no-repeat;
+	height: 5px;
+	display: inline-block;
+	background-position: -100 -100;
+	background: violet;	
+}
+.llama {
+	background-image: url("images/spritesheet.png") -10px -20px no-repeat;
+	width: 25px;
+	height: auto;
+	background-position: -30 -30;
+	display: inline-block; /* the orange ate all of the black*/
+background-color: red;
+}
+.llama:hover {
+	background-image: url("images/nerd.png") top right;
+	width: 45px;
+	height: auto;
+	align: right;
+	background-position: -30 -30;
+	display: inline-block; /* the orange ate all of the black*/
+background-color: blue;
+}
+.llama a:hover{
+	background-image: url("spritesheet.png") top left no-repeat;
+	text-decoration: none;
+	height: 50px;
+	background: black;
+	display: inline-block;
+	background-position: -100 -100;
 }
