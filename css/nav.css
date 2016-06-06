@@ -1,0 +1,101 @@
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+
+/* Nicola */
+.nav
+{	
+text-decoration: none;
+color: blue;
+position: relative;
+top: 5px;
+left: 10px;
+font-family: Vivalvi, Tahoma, Geneva, sans-serif;
+font-weight: bold;
+font-size: 120%;
+text-align: center;
+border-radius: 6px;
+height: auto;
+/* padding: 8px 10px 5px 5px; */
+margin: 2px;
+/* background-color: #eaeafb; */
+}
+
+.nav li {
+	display: inline;
+	margin: 20px 2%;
+	/* padding; 30px; */
+}
+
+.nav a {
+	text-decoration: none;
+	color: #c12c12;
+	margin-right: 2px;
+	/* padding-top: 10px;  -- This setting causes menu items to interfere */
+	padding-right: 5%;
+	margin-bottom: 5%; 
+}
+
+.nav a:hover {
+	color: blue;
+	background-color:#e6e6f0; /* white */
+	border-radius: 6px;
+}
+
+.active { background-color: none;
+border-radius: 6px;
+margin-left: 1%; }
+
+.active a{
+	text-decoration: none;
+	color: green; /* #c12c12; */
+	margin-right: 2px;
+	padding-right: 5%;
+	padding-left: 1%;
+	margin-bottom: 10px; 
+	/* border: 1px solid grey; */
+	border-radius: 6px;
+	text-align: center;
+}
+	
+.footer {
+font-size: 8px;
+padding-right: 1%;
+text-align: center;
+margin-right: 1%;
+/* background-color: #eaeafb;  */
+background: url("images/llama.png") repeat center top;
+ background-position: left 50%;
+height: 40px; width: 60px;
+display: inline;
+/*padding-left: 1%;
+text-indent: -9999px;
+position: relative;*/
+clear: both; 
+}	
+
+/* Body formatting */
+.themiddle {
+	padding: 1% 1% 1% 1%;
+	text-align: center;
+	background-color: #e6e6f0;
+	border-radius: 4%;
+}
+
+.marketing {
+	padding: 0 5% 5% 2%;
+	margin-top: 0;
+	text-align: center;
+}
+	
