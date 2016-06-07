@@ -1,0 +1,112 @@
+
+
+* {
+	-webkit-border-radius: 6px; 
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	text-align: center;
+	  -webkit-box-sizing: border-box; /* padding and border of that element no longer increase its width */
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+}
+/* Nicola 
+-- ShayHowe.com, http://learnlayout.com/toc.html */
+.container {
+	position: relative; /* allow elements relative position  */
+	max-width: 100%;
+}
+.nav { 
+	position: absolute;
+	left: 0;
+	width: 90%;
+    text-align:center;
+	margin-bottom: 10px;
+	display: block;
+float: left;
+}
+.nav li {
+    display:inline; 
+
+}
+
+.nav a {
+	display: inline-block; 
+	text-decoration: none;	
+	background-color: lightgreen;
+}
+
+.nav a:hover {
+	color: blue; /*hover font color */
+	background-color:#e6e6f0; 
+
+}
+
+.active a{
+	text-align: center;
+/*	margin-left: -5%;  pull everything a bit to the left */
+	color: green; /* #c12c12; */
+	margin-right: 1%;
+ /*	padding-right: 5%; make it a little stand-offish*/
+	padding-left: 1%;
+	padding-bottom: 1%;
+/*	margin-bottom: 1%;  */
+	/* display: inline; */
+}
+	
+.footer {
+ /*background: url("images/llama.png") repeat center top;
+ background-position: left 50%;
+height: 40px; width: 60px;
+display: inline;
+padding-left: 1%;
+text-indent: -9999px;*/
+position: relative;
+/* clear: both; /* clear left and right justified elements */
+}	
+
+footer p { 
+font-size: 6px;
+}
+
+#myllama {
+	width: 15px; /* % causes llama dims to change with screen resize */
+    height: 27px;/* fix aspect ratio and don't interfere with text */
+    background: url(../images/llama.png) no-repeat;
+	 bottom: 10px;   
+    right: -2px;
+   background-size: 100%  100%;
+   font-size: 40px;
+   position: fixed;
+   clear: both;
+   max-width: 100%;
+/* 	background: url("../images/nerd.png") no-repeat;
+     width: 50%;
+    height: 50%;
+  
+    position: absolute;
+	*/
+}
+
+/* Body formatting */
+.themiddle {
+	padding: 1% 5% 5% 1%;
+	background-color: yellow ; /*#e6e6f0; */
+display: block;
+	font-size: 10px;
+	width: 85%;
+}
+
+.marketing {
+	padding: 0 5% 5% 2%;
+	margin-top: 0;
+	margin-left: 2%;
+	font-size: 75%;
+	max-width: 90%;
+	background-color: lightpink;
+}
+.marketing a {
+	font-size: 80%;
+}
+	
