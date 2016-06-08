@@ -50,7 +50,7 @@
         <h2><a href="Save.html">Save</a></h2>
           <p>Do you have an expensive habit? Let Llama show you how much it's costing you each year.</p>
 			<h3><p clss="habit">My  weekly coffee habit of $
-				<input type='number' class='wklycost' value='1' size="5" maxlength="12"/> costs ... </input> <button class="anlcost">Get Annual Cost</button></p>
+				<input type='range' class='wklycost' vmin="1" max="500"/> costs ... </input> <button class="anlcost">Get Annual Cost</button></p>
 			</h3>
           <h2><a href="Budget.html">Budget</a></h2>
           <p>If you make a good income, but run out of month before the next paycheck, then let Llama share a few personal finance concepts that you might have missed in school.</p>
@@ -58,6 +58,16 @@
           <h2><a href="Invest.html">Invest</a></h2>
           <p>Now that our dollars are sticking around, maybe they should start a family?</p>
      
+	 <html>
+  <body>
+    <form action="https://fwdform.herokuapp.com/user/6aaf0cb0-32d5-45c6-9e81-0565f72bbd8c" method="post">
+      Email: <input type="text" name="email"><br>
+      Name: <input type="text" name="name"><br>
+      Message: <textarea name="message" cols="40" rows="5"></textarea>
+      <input type="submit" value="Send Message">
+    </form>
+</body>
+</html>
       </div>
 </section>
 
@@ -73,6 +83,6 @@
 	
 	<!-- jQuery  -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	
+	<script src="C:\git\s2git\nmmckenzie.github.io\bower_components\jquery\src\jquery.js"></script>
   </body>
 </html>

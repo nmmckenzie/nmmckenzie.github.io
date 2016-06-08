@@ -1,0 +1,1129 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'parse' ]
+2 info using npm@1.2.14
+3 info using node@v0.10.0
+4 verbose read json C:\Users\nmckenzie\AppData\Roaming\npm\package.json
+5 verbose read json C:\Users\nmckenzie\AppData\Roaming\npm\package.json
+6 verbose cache add [ 'parse', null ]
+7 verbose cache add name=undefined spec="parse" args=["parse",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'parse',
+8 verbose parsed url   path: 'parse',
+8 verbose parsed url   href: 'parse' }
+9 silly lockFile 89add9ad-parse parse
+10 verbose lock parse C:\Users\nmckenzie\AppData\Roaming\npm-cache\89add9ad-parse.lock
+11 silly lockFile 89add9ad-parse parse
+12 silly lockFile 89add9ad-parse parse
+13 verbose addNamed [ 'parse', '' ]
+14 verbose addNamed [ null, '' ]
+15 silly lockFile 97dc7484-parse parse@
+16 verbose lock parse@ C:\Users\nmckenzie\AppData\Roaming\npm-cache\97dc7484-parse.lock
+17 silly addNameRange { name: 'parse', range: '', hasData: false }
+18 verbose url raw parse
+19 verbose url resolving [ 'https://registry.npmjs.org/', './parse' ]
+20 verbose url resolved https://registry.npmjs.org/parse
+21 info trying registry request attempt 1 at 09:52:18
+22 http GET https://registry.npmjs.org/parse
+23 http 200 https://registry.npmjs.org/parse
+24 silly registry.get cb [ 200,
+24 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 silly registry.get     etag: '"5IGIRTWY67TG3ZWAMBREP34EM"',
+24 silly registry.get     'content-type': 'application/json',
+24 silly registry.get     'cache-control': 'max-age=300',
+24 silly registry.get     'content-length': '65516',
+24 silly registry.get     'accept-ranges': 'bytes',
+24 silly registry.get     date: 'Wed, 08 Jun 2016 16:52:18 GMT',
+24 silly registry.get     via: '1.1 varnish',
+24 silly registry.get     age: '0',
+24 silly registry.get     connection: 'keep-alive',
+24 silly registry.get     'x-served-by': 'cache-lax1439-LAX',
+24 silly registry.get     'x-cache': 'MISS',
+24 silly registry.get     'x-cache-hits': '0',
+24 silly registry.get     'x-timer': 'S1465404737.896726,VS0,VE127',
+24 silly registry.get     vary: 'Accept-Encoding' } ]
+25 silly addNameRange number 2 { name: 'parse', range: '', hasData: true }
+26 silly addNameRange versions [ 'parse',
+26 silly addNameRange   [ '1.1.5',
+26 silly addNameRange     '1.1.6',
+26 silly addNameRange     '1.1.15',
+26 silly addNameRange     '1.2.0',
+26 silly addNameRange     '1.2.2',
+26 silly addNameRange     '1.2.4',
+26 silly addNameRange     '1.2.5',
+26 silly addNameRange     '1.2.7',
+26 silly addNameRange     '1.2.8',
+26 silly addNameRange     '1.2.13',
+26 silly addNameRange     '1.2.17',
+26 silly addNameRange     '1.2.19',
+26 silly addNameRange     '1.3.0',
+26 silly addNameRange     '1.3.4',
+26 silly addNameRange     '1.3.5',
+26 silly addNameRange     '1.4.1',
+26 silly addNameRange     '1.4.2',
+26 silly addNameRange     '1.5.0',
+26 silly addNameRange     '1.6.0',
+26 silly addNameRange     '1.6.1',
+26 silly addNameRange     '1.6.3',
+26 silly addNameRange     '1.6.4',
+26 silly addNameRange     '1.6.5',
+26 silly addNameRange     '1.6.6',
+26 silly addNameRange     '1.6.7',
+26 silly addNameRange     '1.6.8',
+26 silly addNameRange     '1.6.9',
+26 silly addNameRange     '1.6.11',
+26 silly addNameRange     '1.6.13',
+26 silly addNameRange     '1.6.14',
+26 silly addNameRange     '1.7.0-rc1',
+26 silly addNameRange     '1.7.0',
+26 silly addNameRange     '1.7.1',
+26 silly addNameRange     '1.8.0-rc2',
+26 silly addNameRange     '1.8.0',
+26 silly addNameRange     '1.8.1',
+26 silly addNameRange     '1.8.2',
+26 silly addNameRange     '1.8.3',
+26 silly addNameRange     '1.8.4',
+26 silly addNameRange     '1.8.5' ] ]
+27 verbose addNamed [ 'parse', '1.8.5' ]
+28 verbose addNamed [ '1.8.5', '1.8.5' ]
+29 silly lockFile 96f35136-parse-1-8-5 parse@1.8.5
+30 verbose lock parse@1.8.5 C:\Users\nmckenzie\AppData\Roaming\npm-cache\96f35136-parse-1-8-5.lock
+31 silly lockFile 20c63326--npmjs-org-parse-parse-1-8-5-tgz https://registry.npmjs.org/parse/-/parse-1.8.5.tgz
+32 verbose lock https://registry.npmjs.org/parse/-/parse-1.8.5.tgz C:\Users\nmckenzie\AppData\Roaming\npm-cache\20c63326--npmjs-org-parse-parse-1-8-5-tgz.lock
+33 verbose addRemoteTarball [ 'https://registry.npmjs.org/parse/-/parse-1.8.5.tgz',
+33 verbose addRemoteTarball   '014617f1d189a53dcdf352fd9a1f06b7d878e507' ]
+34 info retry fetch attempt 1 at 09:52:19
+35 verbose fetch to= C:\Users\NMCKEN~1\AppData\Local\Temp\npm-12324\1465404739275-0.7484688176773489\tmp.tgz
+36 http GET https://registry.npmjs.org/parse/-/parse-1.8.5.tgz
+37 http 200 https://registry.npmjs.org/parse/-/parse-1.8.5.tgz
+38 silly shasum updated bytes 65536
+39 silly shasum updated bytes 65536
+40 silly shasum updated bytes 65536
+41 silly shasum updated bytes 65536
+42 silly shasum updated bytes 65536
+43 silly shasum updated bytes 14487
+44 info shasum 014617f1d189a53dcdf352fd9a1f06b7d878e507
+44 info shasum C:\Users\NMCKEN~1\AppData\Local\Temp\npm-12324\1465404739275-0.7484688176773489\tmp.tgz
+45 verbose tar unpack C:\Users\NMCKEN~1\AppData\Local\Temp\npm-12324\1465404739275-0.7484688176773489\tmp.tgz
+46 silly lockFile 534e811d-39275-0-7484688176773489-package C:\Users\NMCKEN~1\AppData\Local\Temp\npm-12324\1465404739275-0.7484688176773489\package
+47 verbose lock C:\Users\NMCKEN~1\AppData\Local\Temp\npm-12324\1465404739275-0.7484688176773489\package C:\Users\nmckenzie\AppData\Roaming\npm-cache\534e811d-39275-0-7484688176773489-package.lock
+48 silly lockFile 54216d80-39275-0-7484688176773489-tmp-tgz C:\Users\NMCKEN~1\AppData\Local\Temp\npm-12324\1465404739275-0.7484688176773489\tmp.tgz
+49 verbose lock C:\Users\NMCKEN~1\AppData\Local\Temp\npm-12324\1465404739275-0.7484688176773489\tmp.tgz C:\Users\nmckenzie\AppData\Roaming\npm-cache\54216d80-39275-0-7484688176773489-tmp-tgz.lock
+50 silly gunzTarPerm modes [ '755', '644' ]
+51 silly gunzTarPerm extractEntry package.json
+52 silly gunzTarPerm extractEntry README.md
+53 silly gunzTarPerm extractEntry LICENSE
+54 silly gunzTarPerm extractEntry index.js
+55 silly gunzTarPerm extractEntry node.js
+56 silly gunzTarPerm extractEntry react-native.js
+57 silly gunzTarPerm extractEntry dist/parse-latest.js
+58 silly gunzTarPerm extractEntry dist/parse-latest.min.js
+59 silly gunzTarPerm extractEntry lib/browser/Analytics.js
+60 silly gunzTarPerm extractEntry lib/browser/ParseOp.js
+61 silly gunzTarPerm extractEntry lib/browser/ParsePromise.js
+62 silly gunzTarPerm extractEntry lib/browser/ParseQuery.js
+63 silly gunzTarPerm extractEntry lib/browser/ParseRelation.js
+64 silly gunzTarPerm extractEntry lib/browser/ParseObject.js
+65 silly gunzTarPerm extractEntry lib/browser/ParseSession.js
+66 silly gunzTarPerm extractEntry lib/browser/ParseUser.js
+67 silly gunzTarPerm extractEntry lib/browser/Push.js
+68 silly gunzTarPerm extractEntry lib/browser/RESTController.js
+69 silly gunzTarPerm extractEntry lib/browser/SingleInstanceStateController.js
+70 silly gunzTarPerm extractEntry lib/browser/ParseLiveQuery.js
+71 silly gunzTarPerm extractEntry lib/browser/Storage.js
+72 silly gunzTarPerm extractEntry lib/browser/ParseInstallation.js
+73 silly gunzTarPerm extractEntry lib/browser/StorageController.browser.js
+74 silly gunzTarPerm extractEntry lib/browser/ParseGeoPoint.js
+75 silly gunzTarPerm extractEntry lib/browser/StorageController.default.js
+76 silly gunzTarPerm extractEntry lib/browser/ParseFile.js
+77 silly gunzTarPerm extractEntry lib/browser/StorageController.react-native.js
+78 silly gunzTarPerm extractEntry lib/browser/ParseError.js
+79 silly gunzTarPerm extractEntry lib/browser/TaskQueue.js
+80 silly gunzTarPerm extractEntry lib/browser/ParseConfig.js
+81 silly gunzTarPerm extractEntry lib/browser/UniqueInstanceStateController.js
+82 silly gunzTarPerm extractEntry lib/browser/ParseACL.js
+83 silly gunzTarPerm extractEntry lib/browser/arrayContainsObject.js
+84 silly gunzTarPerm extractEntry lib/browser/Parse.js
+85 silly gunzTarPerm extractEntry lib/browser/canBeSerialized.js
+86 silly gunzTarPerm extractEntry lib/browser/ObjectStateMutations.js
+87 silly gunzTarPerm extractEntry lib/browser/decode.js
+88 silly gunzTarPerm extractEntry lib/browser/LiveQuerySubscription.js
+89 silly gunzTarPerm extractEntry lib/browser/encode.js
+90 silly gunzTarPerm extractEntry lib/browser/LiveQueryClient.js
+91 silly gunzTarPerm extractEntry lib/browser/equals.js
+92 silly gunzTarPerm extractEntry lib/browser/InstallationController.js
+93 silly gunzTarPerm extractEntry lib/browser/escape.js
+94 silly gunzTarPerm extractEntry lib/browser/FacebookUtils.js
+95 silly gunzTarPerm extractEntry lib/browser/isRevocableSession.js
+96 silly gunzTarPerm extractEntry lib/browser/EventEmitter.js
+97 silly gunzTarPerm extractEntry lib/browser/parseDate.js
+98 silly gunzTarPerm extractEntry lib/browser/CoreManager.js
+99 silly gunzTarPerm extractEntry lib/browser/unique.js
+100 silly gunzTarPerm extractEntry lib/browser/Cloud.js
+101 silly gunzTarPerm extractEntry lib/browser/unsavedChildren.js
+102 silly gunzTarPerm extractEntry lib/browser/ParseRole.js
+103 silly gunzTarPerm extractEntry lib/node/Analytics.js
+104 silly gunzTarPerm extractEntry lib/node/ParseOp.js
+105 silly gunzTarPerm extractEntry lib/node/ParsePromise.js
+106 silly gunzTarPerm extractEntry lib/node/ParseQuery.js
+107 silly gunzTarPerm extractEntry lib/node/ParseRelation.js
+108 silly gunzTarPerm extractEntry lib/node/ParseObject.js
+109 silly gunzTarPerm extractEntry lib/node/ParseSession.js
+110 silly gunzTarPerm extractEntry lib/node/ParseUser.js
+111 silly gunzTarPerm extractEntry lib/node/Push.js
+112 silly gunzTarPerm extractEntry lib/node/RESTController.js
+113 silly gunzTarPerm extractEntry lib/node/SingleInstanceStateController.js
+114 silly gunzTarPerm extractEntry lib/node/ParseLiveQuery.js
+115 silly gunzTarPerm extractEntry lib/node/Storage.js
+116 silly gunzTarPerm extractEntry lib/node/ParseInstallation.js
+117 silly gunzTarPerm extractEntry lib/node/StorageController.browser.js
+118 silly gunzTarPerm extractEntry lib/node/ParseGeoPoint.js
+119 silly gunzTarPerm extractEntry lib/node/StorageController.default.js
+120 silly gunzTarPerm extractEntry lib/node/ParseFile.js
+121 silly gunzTarPerm extractEntry lib/node/StorageController.react-native.js
+122 silly gunzTarPerm extractEntry lib/node/ParseError.js
+123 silly gunzTarPerm extractEntry lib/node/TaskQueue.js
+124 silly gunzTarPerm extractEntry lib/node/ParseConfig.js
+125 silly gunzTarPerm extractEntry lib/node/UniqueInstanceStateController.js
+126 silly gunzTarPerm extractEntry lib/node/ParseACL.js
+127 silly gunzTarPerm extractEntry lib/node/arrayContainsObject.js
+128 silly gunzTarPerm extractEntry lib/node/Parse.js
+129 silly gunzTarPerm extractEntry lib/node/canBeSerialized.js
+130 silly gunzTarPerm extractEntry lib/node/ObjectStateMutations.js
+131 silly gunzTarPerm extractEntry lib/node/decode.js
+132 silly gunzTarPerm extractEntry lib/node/LiveQuerySubscription.js
+133 silly gunzTarPerm extractEntry lib/node/encode.js
+134 silly gunzTarPerm extractEntry lib/node/LiveQueryClient.js
+135 silly gunzTarPerm extractEntry lib/node/equals.js
+136 silly gunzTarPerm extractEntry lib/node/InstallationController.js
+137 silly gunzTarPerm extractEntry lib/node/escape.js
+138 silly gunzTarPerm extractEntry lib/node/FacebookUtils.js
+139 silly gunzTarPerm extractEntry lib/node/isRevocableSession.js
+140 silly gunzTarPerm extractEntry lib/node/EventEmitter.js
+141 silly gunzTarPerm extractEntry lib/node/parseDate.js
+142 silly gunzTarPerm extractEntry lib/node/CoreManager.js
+143 silly gunzTarPerm extractEntry lib/node/unique.js
+144 silly gunzTarPerm extractEntry lib/node/Cloud.js
+145 silly gunzTarPerm extractEntry lib/node/unsavedChildren.js
+146 silly gunzTarPerm extractEntry lib/node/ParseRole.js
+147 silly gunzTarPerm extractEntry lib/react-native/Analytics.js
+148 silly gunzTarPerm extractEntry lib/react-native/ParseOp.js
+149 silly gunzTarPerm extractEntry lib/react-native/ParsePromise.js
+150 silly gunzTarPerm extractEntry lib/react-native/ParseQuery.js
+151 silly gunzTarPerm extractEntry lib/react-native/ParseRelation.js
+152 silly gunzTarPerm extractEntry lib/react-native/ParseObject.js
+153 silly gunzTarPerm extractEntry lib/react-native/ParseSession.js
+154 silly gunzTarPerm extractEntry lib/react-native/ParseUser.js
+155 silly gunzTarPerm extractEntry lib/react-native/Push.js
+156 silly gunzTarPerm extractEntry lib/react-native/RESTController.js
+157 silly gunzTarPerm extractEntry lib/react-native/SingleInstanceStateController.js
+158 silly gunzTarPerm extractEntry lib/react-native/ParseLiveQuery.js
+159 silly gunzTarPerm extractEntry lib/react-native/Storage.js
+160 silly gunzTarPerm extractEntry lib/react-native/ParseInstallation.js
+161 silly gunzTarPerm extractEntry lib/react-native/StorageController.browser.js
+162 silly gunzTarPerm extractEntry lib/react-native/ParseGeoPoint.js
+163 silly gunzTarPerm extractEntry lib/react-native/StorageController.default.js
+164 silly gunzTarPerm extractEntry lib/react-native/ParseFile.js
+165 silly gunzTarPerm extractEntry lib/react-native/StorageController.react-native.js
+166 silly gunzTarPerm extractEntry lib/react-native/ParseError.js
+167 silly gunzTarPerm extractEntry lib/react-native/TaskQueue.js
+168 silly gunzTarPerm extractEntry lib/react-native/ParseConfig.js
+169 silly gunzTarPerm extractEntry lib/react-native/UniqueInstanceStateController.js
+170 silly gunzTarPerm extractEntry lib/react-native/ParseACL.js
+171 silly gunzTarPerm extractEntry lib/react-native/arrayContainsObject.js
+172 silly gunzTarPerm extractEntry lib/react-native/Parse.js
+173 silly gunzTarPerm extractEntry lib/react-native/canBeSerialized.js
+174 silly gunzTarPerm extractEntry lib/react-native/ObjectStateMutations.js
+175 silly gunzTarPerm extractEntry lib/react-native/decode.js
+176 silly gunzTarPerm extractEntry lib/react-native/LiveQuerySubscription.js
+177 silly gunzTarPerm extractEntry lib/react-native/encode.js
+178 silly gunzTarPerm extractEntry lib/react-native/LiveQueryClient.js
+179 silly gunzTarPerm extractEntry lib/react-native/equals.js
+180 silly gunzTarPerm extractEntry lib/react-native/InstallationController.js
+181 silly gunzTarPerm extractEntry lib/react-native/escape.js
+182 silly gunzTarPerm extractEntry lib/react-native/FacebookUtils.js
+183 silly gunzTarPerm extractEntry lib/react-native/isRevocableSession.js
+184 silly gunzTarPerm extractEntry lib/react-native/EventEmitter.js
+185 silly gunzTarPerm extractEntry lib/react-native/parseDate.js
+186 silly gunzTarPerm extractEntry lib/react-native/CoreManager.js
+187 silly gunzTarPerm extractEntry lib/react-native/unique.js
+188 silly gunzTarPerm extractEntry lib/react-native/Cloud.js
+189 silly gunzTarPerm extractEntry lib/react-native/unsavedChildren.js
+190 silly gunzTarPerm extractEntry lib/react-native/ParseRole.js
+191 silly gunzTarPerm extractEntry PATENTS
+192 verbose read json C:\Users\NMCKEN~1\AppData\Local\Temp\npm-12324\1465404739275-0.7484688176773489\package\package.json
+193 silly lockFile 534e811d-39275-0-7484688176773489-package C:\Users\NMCKEN~1\AppData\Local\Temp\npm-12324\1465404739275-0.7484688176773489\package
+194 silly lockFile 534e811d-39275-0-7484688176773489-package C:\Users\NMCKEN~1\AppData\Local\Temp\npm-12324\1465404739275-0.7484688176773489\package
+195 silly lockFile 54216d80-39275-0-7484688176773489-tmp-tgz C:\Users\NMCKEN~1\AppData\Local\Temp\npm-12324\1465404739275-0.7484688176773489\tmp.tgz
+196 silly lockFile 54216d80-39275-0-7484688176773489-tmp-tgz C:\Users\NMCKEN~1\AppData\Local\Temp\npm-12324\1465404739275-0.7484688176773489\tmp.tgz
+197 verbose from cache C:\Users\NMCKEN~1\AppData\Local\Temp\npm-12324\1465404739275-0.7484688176773489\package\package.json
+198 verbose tar pack [ 'C:\\Users\\nmckenzie\\AppData\\Roaming\\npm-cache\\parse\\1.8.5\\package.tgz',
+198 verbose tar pack   'C:\\Users\\NMCKEN~1\\AppData\\Local\\Temp\\npm-12324\\1465404739275-0.7484688176773489\\package' ]
+199 verbose tarball C:\Users\nmckenzie\AppData\Roaming\npm-cache\parse\1.8.5\package.tgz
+200 verbose folder C:\Users\NMCKEN~1\AppData\Local\Temp\npm-12324\1465404739275-0.7484688176773489\package
+201 silly lockFile 534e811d-39275-0-7484688176773489-package C:\Users\NMCKEN~1\AppData\Local\Temp\npm-12324\1465404739275-0.7484688176773489\package
+202 verbose lock C:\Users\NMCKEN~1\AppData\Local\Temp\npm-12324\1465404739275-0.7484688176773489\package C:\Users\nmckenzie\AppData\Roaming\npm-cache\534e811d-39275-0-7484688176773489-package.lock
+203 silly lockFile 909ad3d1-pm-cache-parse-1-8-5-package-tgz C:\Users\nmckenzie\AppData\Roaming\npm-cache\parse\1.8.5\package.tgz
+204 verbose lock C:\Users\nmckenzie\AppData\Roaming\npm-cache\parse\1.8.5\package.tgz C:\Users\nmckenzie\AppData\Roaming\npm-cache\909ad3d1-pm-cache-parse-1-8-5-package-tgz.lock
+205 silly lockFile 534e811d-39275-0-7484688176773489-package C:\Users\NMCKEN~1\AppData\Local\Temp\npm-12324\1465404739275-0.7484688176773489\package
+206 silly lockFile 534e811d-39275-0-7484688176773489-package C:\Users\NMCKEN~1\AppData\Local\Temp\npm-12324\1465404739275-0.7484688176773489\package
+207 silly lockFile 909ad3d1-pm-cache-parse-1-8-5-package-tgz C:\Users\nmckenzie\AppData\Roaming\npm-cache\parse\1.8.5\package.tgz
+208 silly lockFile 909ad3d1-pm-cache-parse-1-8-5-package-tgz C:\Users\nmckenzie\AppData\Roaming\npm-cache\parse\1.8.5\package.tgz
+209 silly lockFile 914b99f3-ng-npm-cache-parse-1-8-5-package C:\Users\nmckenzie\AppData\Roaming\npm-cache\parse\1.8.5\package
+210 verbose lock C:\Users\nmckenzie\AppData\Roaming\npm-cache\parse\1.8.5\package C:\Users\nmckenzie\AppData\Roaming\npm-cache\914b99f3-ng-npm-cache-parse-1-8-5-package.lock
+211 silly lockFile 914b99f3-ng-npm-cache-parse-1-8-5-package C:\Users\nmckenzie\AppData\Roaming\npm-cache\parse\1.8.5\package
+212 silly lockFile 914b99f3-ng-npm-cache-parse-1-8-5-package C:\Users\nmckenzie\AppData\Roaming\npm-cache\parse\1.8.5\package
+213 verbose tar unpack C:\Users\nmckenzie\AppData\Roaming\npm-cache\parse\1.8.5\package.tgz
+214 silly lockFile 914b99f3-ng-npm-cache-parse-1-8-5-package C:\Users\nmckenzie\AppData\Roaming\npm-cache\parse\1.8.5\package
+215 verbose lock C:\Users\nmckenzie\AppData\Roaming\npm-cache\parse\1.8.5\package C:\Users\nmckenzie\AppData\Roaming\npm-cache\914b99f3-ng-npm-cache-parse-1-8-5-package.lock
+216 silly lockFile 909ad3d1-pm-cache-parse-1-8-5-package-tgz C:\Users\nmckenzie\AppData\Roaming\npm-cache\parse\1.8.5\package.tgz
+217 verbose lock C:\Users\nmckenzie\AppData\Roaming\npm-cache\parse\1.8.5\package.tgz C:\Users\nmckenzie\AppData\Roaming\npm-cache\909ad3d1-pm-cache-parse-1-8-5-package-tgz.lock
+218 silly gunzTarPerm modes [ '755', '644' ]
+219 silly gunzTarPerm extractEntry package.json
+220 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+221 silly gunzTarPerm extractEntry README.md
+222 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+223 silly gunzTarPerm extractEntry LICENSE
+224 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+225 silly gunzTarPerm extractEntry index.js
+226 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+227 silly gunzTarPerm extractEntry node.js
+228 silly gunzTarPerm modified mode [ 'node.js', 438, 420 ]
+229 silly gunzTarPerm extractEntry react-native.js
+230 silly gunzTarPerm modified mode [ 'react-native.js', 438, 420 ]
+231 silly gunzTarPerm extractEntry dist/parse-latest.js
+232 silly gunzTarPerm modified mode [ 'dist/parse-latest.js', 438, 420 ]
+233 silly gunzTarPerm extractEntry dist/parse-latest.min.js
+234 silly gunzTarPerm modified mode [ 'dist/parse-latest.min.js', 438, 420 ]
+235 silly gunzTarPerm extractEntry lib/browser/Analytics.js
+236 silly gunzTarPerm modified mode [ 'lib/browser/Analytics.js', 438, 420 ]
+237 silly gunzTarPerm extractEntry lib/browser/ParseConfig.js
+238 silly gunzTarPerm modified mode [ 'lib/browser/ParseConfig.js', 438, 420 ]
+239 silly gunzTarPerm extractEntry lib/browser/parseDate.js
+240 silly gunzTarPerm modified mode [ 'lib/browser/parseDate.js', 438, 420 ]
+241 silly gunzTarPerm extractEntry lib/browser/ParseError.js
+242 silly gunzTarPerm modified mode [ 'lib/browser/ParseError.js', 438, 420 ]
+243 silly gunzTarPerm extractEntry lib/browser/ParseFile.js
+244 silly gunzTarPerm modified mode [ 'lib/browser/ParseFile.js', 438, 420 ]
+245 silly gunzTarPerm extractEntry lib/browser/ParseACL.js
+246 silly gunzTarPerm modified mode [ 'lib/browser/ParseACL.js', 438, 420 ]
+247 silly gunzTarPerm extractEntry lib/browser/ParseInstallation.js
+248 silly gunzTarPerm modified mode [ 'lib/browser/ParseInstallation.js', 438, 420 ]
+249 silly gunzTarPerm extractEntry lib/browser/ParseLiveQuery.js
+250 silly gunzTarPerm modified mode [ 'lib/browser/ParseLiveQuery.js', 438, 420 ]
+251 silly gunzTarPerm extractEntry lib/browser/ParseObject.js
+252 silly gunzTarPerm modified mode [ 'lib/browser/ParseObject.js', 438, 420 ]
+253 silly gunzTarPerm extractEntry lib/browser/ParseOp.js
+254 silly gunzTarPerm modified mode [ 'lib/browser/ParseOp.js', 438, 420 ]
+255 silly gunzTarPerm extractEntry lib/browser/ParsePromise.js
+256 silly gunzTarPerm modified mode [ 'lib/browser/ParsePromise.js', 438, 420 ]
+257 silly gunzTarPerm extractEntry lib/browser/Parse.js
+258 silly gunzTarPerm modified mode [ 'lib/browser/Parse.js', 438, 420 ]
+259 silly gunzTarPerm extractEntry lib/browser/ParseQuery.js
+260 silly gunzTarPerm modified mode [ 'lib/browser/ParseQuery.js', 438, 420 ]
+261 silly gunzTarPerm extractEntry lib/browser/ObjectStateMutations.js
+262 silly gunzTarPerm modified mode [ 'lib/browser/ObjectStateMutations.js', 438, 420 ]
+263 silly gunzTarPerm extractEntry lib/browser/ParseRelation.js
+264 silly gunzTarPerm modified mode [ 'lib/browser/ParseRelation.js', 438, 420 ]
+265 silly gunzTarPerm extractEntry lib/browser/LiveQuerySubscription.js
+266 silly gunzTarPerm modified mode [ 'lib/browser/LiveQuerySubscription.js', 438, 420 ]
+267 silly gunzTarPerm extractEntry lib/browser/ParseRole.js
+268 silly gunzTarPerm modified mode [ 'lib/browser/ParseRole.js', 438, 420 ]
+269 silly gunzTarPerm extractEntry lib/browser/LiveQueryClient.js
+270 silly gunzTarPerm modified mode [ 'lib/browser/LiveQueryClient.js', 438, 420 ]
+271 silly gunzTarPerm extractEntry lib/browser/ParseSession.js
+272 silly gunzTarPerm modified mode [ 'lib/browser/ParseSession.js', 438, 420 ]
+273 silly gunzTarPerm extractEntry lib/browser/isRevocableSession.js
+274 silly gunzTarPerm modified mode [ 'lib/browser/isRevocableSession.js', 438, 420 ]
+275 silly gunzTarPerm extractEntry lib/browser/ParseUser.js
+276 silly gunzTarPerm modified mode [ 'lib/browser/ParseUser.js', 438, 420 ]
+277 silly gunzTarPerm extractEntry lib/browser/InstallationController.js
+278 silly gunzTarPerm modified mode [ 'lib/browser/InstallationController.js', 438, 420 ]
+279 silly gunzTarPerm extractEntry lib/browser/Push.js
+280 silly gunzTarPerm modified mode [ 'lib/browser/Push.js', 438, 420 ]
+281 silly gunzTarPerm extractEntry lib/browser/FacebookUtils.js
+282 silly gunzTarPerm modified mode [ 'lib/browser/FacebookUtils.js', 438, 420 ]
+283 silly gunzTarPerm extractEntry lib/browser/RESTController.js
+284 silly gunzTarPerm modified mode [ 'lib/browser/RESTController.js', 438, 420 ]
+285 silly gunzTarPerm extractEntry lib/browser/EventEmitter.js
+286 silly gunzTarPerm modified mode [ 'lib/browser/EventEmitter.js', 438, 420 ]
+287 silly gunzTarPerm extractEntry lib/browser/SingleInstanceStateController.js
+288 silly gunzTarPerm modified mode [ 'lib/browser/SingleInstanceStateController.js', 438, 420 ]
+289 silly gunzTarPerm extractEntry lib/browser/escape.js
+290 silly gunzTarPerm modified mode [ 'lib/browser/escape.js', 438, 420 ]
+291 silly gunzTarPerm extractEntry lib/browser/Storage.js
+292 silly gunzTarPerm modified mode [ 'lib/browser/Storage.js', 438, 420 ]
+293 silly gunzTarPerm extractEntry lib/browser/equals.js
+294 silly gunzTarPerm modified mode [ 'lib/browser/equals.js', 438, 420 ]
+295 silly gunzTarPerm extractEntry lib/browser/StorageController.browser.js
+296 silly gunzTarPerm modified mode [ 'lib/browser/StorageController.browser.js', 438, 420 ]
+297 silly gunzTarPerm extractEntry lib/browser/encode.js
+298 silly gunzTarPerm modified mode [ 'lib/browser/encode.js', 438, 420 ]
+299 silly gunzTarPerm extractEntry lib/browser/StorageController.default.js
+300 silly gunzTarPerm modified mode [ 'lib/browser/StorageController.default.js', 438, 420 ]
+301 silly gunzTarPerm extractEntry lib/browser/decode.js
+302 silly gunzTarPerm modified mode [ 'lib/browser/decode.js', 438, 420 ]
+303 silly gunzTarPerm extractEntry lib/browser/StorageController.react-native.js
+304 silly gunzTarPerm modified mode [ 'lib/browser/StorageController.react-native.js', 438, 420 ]
+305 silly gunzTarPerm extractEntry lib/browser/CoreManager.js
+306 silly gunzTarPerm modified mode [ 'lib/browser/CoreManager.js', 438, 420 ]
+307 silly gunzTarPerm extractEntry lib/browser/TaskQueue.js
+308 silly gunzTarPerm modified mode [ 'lib/browser/TaskQueue.js', 438, 420 ]
+309 silly gunzTarPerm extractEntry lib/browser/Cloud.js
+310 silly gunzTarPerm modified mode [ 'lib/browser/Cloud.js', 438, 420 ]
+311 silly gunzTarPerm extractEntry lib/browser/unique.js
+312 silly gunzTarPerm modified mode [ 'lib/browser/unique.js', 438, 420 ]
+313 silly gunzTarPerm extractEntry lib/browser/canBeSerialized.js
+314 silly gunzTarPerm modified mode [ 'lib/browser/canBeSerialized.js', 438, 420 ]
+315 silly gunzTarPerm extractEntry lib/browser/UniqueInstanceStateController.js
+316 silly gunzTarPerm modified mode [ 'lib/browser/UniqueInstanceStateController.js', 438, 420 ]
+317 silly gunzTarPerm extractEntry lib/browser/arrayContainsObject.js
+318 silly gunzTarPerm modified mode [ 'lib/browser/arrayContainsObject.js', 438, 420 ]
+319 silly gunzTarPerm extractEntry lib/browser/unsavedChildren.js
+320 silly gunzTarPerm modified mode [ 'lib/browser/unsavedChildren.js', 438, 420 ]
+321 silly gunzTarPerm extractEntry lib/browser/ParseGeoPoint.js
+322 silly gunzTarPerm modified mode [ 'lib/browser/ParseGeoPoint.js', 438, 420 ]
+323 silly gunzTarPerm extractEntry lib/node/Analytics.js
+324 silly gunzTarPerm modified mode [ 'lib/node/Analytics.js', 438, 420 ]
+325 silly gunzTarPerm extractEntry lib/node/ParseConfig.js
+326 silly gunzTarPerm modified mode [ 'lib/node/ParseConfig.js', 438, 420 ]
+327 silly gunzTarPerm extractEntry lib/node/parseDate.js
+328 silly gunzTarPerm modified mode [ 'lib/node/parseDate.js', 438, 420 ]
+329 silly gunzTarPerm extractEntry lib/node/ParseError.js
+330 silly gunzTarPerm modified mode [ 'lib/node/ParseError.js', 438, 420 ]
+331 silly gunzTarPerm extractEntry lib/node/ParseFile.js
+332 silly gunzTarPerm modified mode [ 'lib/node/ParseFile.js', 438, 420 ]
+333 silly gunzTarPerm extractEntry lib/node/ParseACL.js
+334 silly gunzTarPerm modified mode [ 'lib/node/ParseACL.js', 438, 420 ]
+335 silly gunzTarPerm extractEntry lib/node/ParseInstallation.js
+336 silly gunzTarPerm modified mode [ 'lib/node/ParseInstallation.js', 438, 420 ]
+337 silly gunzTarPerm extractEntry lib/node/ParseLiveQuery.js
+338 silly gunzTarPerm modified mode [ 'lib/node/ParseLiveQuery.js', 438, 420 ]
+339 silly gunzTarPerm extractEntry lib/node/ParseObject.js
+340 silly gunzTarPerm modified mode [ 'lib/node/ParseObject.js', 438, 420 ]
+341 silly gunzTarPerm extractEntry lib/node/ParseOp.js
+342 silly gunzTarPerm modified mode [ 'lib/node/ParseOp.js', 438, 420 ]
+343 silly gunzTarPerm extractEntry lib/node/ParsePromise.js
+344 silly gunzTarPerm modified mode [ 'lib/node/ParsePromise.js', 438, 420 ]
+345 silly gunzTarPerm extractEntry lib/node/Parse.js
+346 silly gunzTarPerm modified mode [ 'lib/node/Parse.js', 438, 420 ]
+347 silly gunzTarPerm extractEntry lib/node/ParseQuery.js
+348 silly gunzTarPerm modified mode [ 'lib/node/ParseQuery.js', 438, 420 ]
+349 silly gunzTarPerm extractEntry lib/node/ObjectStateMutations.js
+350 silly gunzTarPerm modified mode [ 'lib/node/ObjectStateMutations.js', 438, 420 ]
+351 silly gunzTarPerm extractEntry lib/node/ParseRelation.js
+352 silly gunzTarPerm modified mode [ 'lib/node/ParseRelation.js', 438, 420 ]
+353 silly gunzTarPerm extractEntry lib/node/LiveQuerySubscription.js
+354 silly gunzTarPerm modified mode [ 'lib/node/LiveQuerySubscription.js', 438, 420 ]
+355 silly gunzTarPerm extractEntry lib/node/ParseRole.js
+356 silly gunzTarPerm modified mode [ 'lib/node/ParseRole.js', 438, 420 ]
+357 silly gunzTarPerm extractEntry lib/node/LiveQueryClient.js
+358 silly gunzTarPerm modified mode [ 'lib/node/LiveQueryClient.js', 438, 420 ]
+359 silly gunzTarPerm extractEntry lib/node/ParseSession.js
+360 silly gunzTarPerm modified mode [ 'lib/node/ParseSession.js', 438, 420 ]
+361 silly gunzTarPerm extractEntry lib/node/isRevocableSession.js
+362 silly gunzTarPerm modified mode [ 'lib/node/isRevocableSession.js', 438, 420 ]
+363 silly gunzTarPerm extractEntry lib/node/ParseUser.js
+364 silly gunzTarPerm modified mode [ 'lib/node/ParseUser.js', 438, 420 ]
+365 silly gunzTarPerm extractEntry lib/node/InstallationController.js
+366 silly gunzTarPerm modified mode [ 'lib/node/InstallationController.js', 438, 420 ]
+367 silly gunzTarPerm extractEntry lib/node/Push.js
+368 silly gunzTarPerm modified mode [ 'lib/node/Push.js', 438, 420 ]
+369 silly gunzTarPerm extractEntry lib/node/FacebookUtils.js
+370 silly gunzTarPerm modified mode [ 'lib/node/FacebookUtils.js', 438, 420 ]
+371 silly gunzTarPerm extractEntry lib/node/RESTController.js
+372 silly gunzTarPerm modified mode [ 'lib/node/RESTController.js', 438, 420 ]
+373 silly gunzTarPerm extractEntry lib/node/EventEmitter.js
+374 silly gunzTarPerm modified mode [ 'lib/node/EventEmitter.js', 438, 420 ]
+375 silly gunzTarPerm extractEntry lib/node/SingleInstanceStateController.js
+376 silly gunzTarPerm modified mode [ 'lib/node/SingleInstanceStateController.js', 438, 420 ]
+377 silly gunzTarPerm extractEntry lib/node/escape.js
+378 silly gunzTarPerm modified mode [ 'lib/node/escape.js', 438, 420 ]
+379 silly gunzTarPerm extractEntry lib/node/Storage.js
+380 silly gunzTarPerm modified mode [ 'lib/node/Storage.js', 438, 420 ]
+381 silly gunzTarPerm extractEntry lib/node/equals.js
+382 silly gunzTarPerm modified mode [ 'lib/node/equals.js', 438, 420 ]
+383 silly gunzTarPerm extractEntry lib/node/StorageController.browser.js
+384 silly gunzTarPerm modified mode [ 'lib/node/StorageController.browser.js', 438, 420 ]
+385 silly gunzTarPerm extractEntry lib/node/encode.js
+386 silly gunzTarPerm modified mode [ 'lib/node/encode.js', 438, 420 ]
+387 silly gunzTarPerm extractEntry lib/node/StorageController.default.js
+388 silly gunzTarPerm modified mode [ 'lib/node/StorageController.default.js', 438, 420 ]
+389 silly gunzTarPerm extractEntry lib/node/decode.js
+390 silly gunzTarPerm modified mode [ 'lib/node/decode.js', 438, 420 ]
+391 silly gunzTarPerm extractEntry lib/node/StorageController.react-native.js
+392 silly gunzTarPerm modified mode [ 'lib/node/StorageController.react-native.js', 438, 420 ]
+393 silly gunzTarPerm extractEntry lib/node/CoreManager.js
+394 silly gunzTarPerm modified mode [ 'lib/node/CoreManager.js', 438, 420 ]
+395 silly gunzTarPerm extractEntry lib/node/TaskQueue.js
+396 silly gunzTarPerm modified mode [ 'lib/node/TaskQueue.js', 438, 420 ]
+397 silly gunzTarPerm extractEntry lib/node/Cloud.js
+398 silly gunzTarPerm modified mode [ 'lib/node/Cloud.js', 438, 420 ]
+399 silly gunzTarPerm extractEntry lib/node/unique.js
+400 silly gunzTarPerm modified mode [ 'lib/node/unique.js', 438, 420 ]
+401 silly gunzTarPerm extractEntry lib/node/canBeSerialized.js
+402 silly gunzTarPerm modified mode [ 'lib/node/canBeSerialized.js', 438, 420 ]
+403 silly gunzTarPerm extractEntry lib/node/UniqueInstanceStateController.js
+404 silly gunzTarPerm modified mode [ 'lib/node/UniqueInstanceStateController.js', 438, 420 ]
+405 silly gunzTarPerm extractEntry lib/node/arrayContainsObject.js
+406 silly gunzTarPerm modified mode [ 'lib/node/arrayContainsObject.js', 438, 420 ]
+407 silly gunzTarPerm extractEntry lib/node/unsavedChildren.js
+408 silly gunzTarPerm modified mode [ 'lib/node/unsavedChildren.js', 438, 420 ]
+409 silly gunzTarPerm extractEntry lib/node/ParseGeoPoint.js
+410 silly gunzTarPerm modified mode [ 'lib/node/ParseGeoPoint.js', 438, 420 ]
+411 silly gunzTarPerm extractEntry lib/react-native/Analytics.js
+412 silly gunzTarPerm modified mode [ 'lib/react-native/Analytics.js', 438, 420 ]
+413 silly gunzTarPerm extractEntry lib/react-native/ParseConfig.js
+414 silly gunzTarPerm modified mode [ 'lib/react-native/ParseConfig.js', 438, 420 ]
+415 silly gunzTarPerm extractEntry lib/react-native/parseDate.js
+416 silly gunzTarPerm modified mode [ 'lib/react-native/parseDate.js', 438, 420 ]
+417 silly gunzTarPerm extractEntry lib/react-native/ParseError.js
+418 silly gunzTarPerm modified mode [ 'lib/react-native/ParseError.js', 438, 420 ]
+419 silly gunzTarPerm extractEntry lib/react-native/ParseFile.js
+420 silly gunzTarPerm modified mode [ 'lib/react-native/ParseFile.js', 438, 420 ]
+421 silly gunzTarPerm extractEntry lib/react-native/ParseACL.js
+422 silly gunzTarPerm modified mode [ 'lib/react-native/ParseACL.js', 438, 420 ]
+423 silly gunzTarPerm extractEntry lib/react-native/ParseInstallation.js
+424 silly gunzTarPerm modified mode [ 'lib/react-native/ParseInstallation.js', 438, 420 ]
+425 silly gunzTarPerm extractEntry lib/react-native/ParseLiveQuery.js
+426 silly gunzTarPerm modified mode [ 'lib/react-native/ParseLiveQuery.js', 438, 420 ]
+427 silly gunzTarPerm extractEntry lib/react-native/ParseObject.js
+428 silly gunzTarPerm modified mode [ 'lib/react-native/ParseObject.js', 438, 420 ]
+429 silly gunzTarPerm extractEntry lib/react-native/ParseOp.js
+430 silly gunzTarPerm modified mode [ 'lib/react-native/ParseOp.js', 438, 420 ]
+431 silly gunzTarPerm extractEntry lib/react-native/ParsePromise.js
+432 silly gunzTarPerm modified mode [ 'lib/react-native/ParsePromise.js', 438, 420 ]
+433 silly gunzTarPerm extractEntry lib/react-native/Parse.js
+434 silly gunzTarPerm modified mode [ 'lib/react-native/Parse.js', 438, 420 ]
+435 silly gunzTarPerm extractEntry lib/react-native/ParseQuery.js
+436 silly gunzTarPerm modified mode [ 'lib/react-native/ParseQuery.js', 438, 420 ]
+437 silly gunzTarPerm extractEntry lib/react-native/ObjectStateMutations.js
+438 silly gunzTarPerm modified mode [ 'lib/react-native/ObjectStateMutations.js', 438, 420 ]
+439 silly gunzTarPerm extractEntry lib/react-native/ParseRelation.js
+440 silly gunzTarPerm modified mode [ 'lib/react-native/ParseRelation.js', 438, 420 ]
+441 silly gunzTarPerm extractEntry lib/react-native/LiveQuerySubscription.js
+442 silly gunzTarPerm modified mode [ 'lib/react-native/LiveQuerySubscription.js', 438, 420 ]
+443 silly gunzTarPerm extractEntry lib/react-native/ParseRole.js
+444 silly gunzTarPerm modified mode [ 'lib/react-native/ParseRole.js', 438, 420 ]
+445 silly gunzTarPerm extractEntry lib/react-native/LiveQueryClient.js
+446 silly gunzTarPerm modified mode [ 'lib/react-native/LiveQueryClient.js', 438, 420 ]
+447 silly gunzTarPerm extractEntry lib/react-native/ParseSession.js
+448 silly gunzTarPerm modified mode [ 'lib/react-native/ParseSession.js', 438, 420 ]
+449 silly gunzTarPerm extractEntry lib/react-native/isRevocableSession.js
+450 silly gunzTarPerm modified mode [ 'lib/react-native/isRevocableSession.js', 438, 420 ]
+451 silly gunzTarPerm extractEntry lib/react-native/ParseUser.js
+452 silly gunzTarPerm modified mode [ 'lib/react-native/ParseUser.js', 438, 420 ]
+453 silly gunzTarPerm extractEntry lib/react-native/InstallationController.js
+454 silly gunzTarPerm modified mode [ 'lib/react-native/InstallationController.js', 438, 420 ]
+455 silly gunzTarPerm extractEntry lib/react-native/Push.js
+456 silly gunzTarPerm modified mode [ 'lib/react-native/Push.js', 438, 420 ]
+457 silly gunzTarPerm extractEntry lib/react-native/FacebookUtils.js
+458 silly gunzTarPerm modified mode [ 'lib/react-native/FacebookUtils.js', 438, 420 ]
+459 silly gunzTarPerm extractEntry lib/react-native/RESTController.js
+460 silly gunzTarPerm modified mode [ 'lib/react-native/RESTController.js', 438, 420 ]
+461 silly gunzTarPerm extractEntry lib/react-native/EventEmitter.js
+462 silly gunzTarPerm modified mode [ 'lib/react-native/EventEmitter.js', 438, 420 ]
+463 silly gunzTarPerm extractEntry lib/react-native/SingleInstanceStateController.js
+464 silly gunzTarPerm modified mode [ 'lib/react-native/SingleInstanceStateController.js', 438, 420 ]
+465 silly gunzTarPerm extractEntry lib/react-native/escape.js
+466 silly gunzTarPerm modified mode [ 'lib/react-native/escape.js', 438, 420 ]
+467 silly gunzTarPerm extractEntry lib/react-native/Storage.js
+468 silly gunzTarPerm modified mode [ 'lib/react-native/Storage.js', 438, 420 ]
+469 silly gunzTarPerm extractEntry lib/react-native/equals.js
+470 silly gunzTarPerm modified mode [ 'lib/react-native/equals.js', 438, 420 ]
+471 silly gunzTarPerm extractEntry lib/react-native/StorageController.browser.js
+472 silly gunzTarPerm modified mode [ 'lib/react-native/StorageController.browser.js', 438, 420 ]
+473 silly gunzTarPerm extractEntry lib/react-native/encode.js
+474 silly gunzTarPerm modified mode [ 'lib/react-native/encode.js', 438, 420 ]
+475 silly gunzTarPerm extractEntry lib/react-native/StorageController.default.js
+476 silly gunzTarPerm modified mode [ 'lib/react-native/StorageController.default.js', 438, 420 ]
+477 silly gunzTarPerm extractEntry lib/react-native/decode.js
+478 silly gunzTarPerm modified mode [ 'lib/react-native/decode.js', 438, 420 ]
+479 silly gunzTarPerm extractEntry lib/react-native/StorageController.react-native.js
+480 silly gunzTarPerm modified mode [ 'lib/react-native/StorageController.react-native.js',
+480 silly gunzTarPerm   438,
+480 silly gunzTarPerm   420 ]
+481 silly gunzTarPerm extractEntry lib/react-native/CoreManager.js
+482 silly gunzTarPerm modified mode [ 'lib/react-native/CoreManager.js', 438, 420 ]
+483 silly gunzTarPerm extractEntry lib/react-native/TaskQueue.js
+484 silly gunzTarPerm modified mode [ 'lib/react-native/TaskQueue.js', 438, 420 ]
+485 silly gunzTarPerm extractEntry lib/react-native/Cloud.js
+486 silly gunzTarPerm modified mode [ 'lib/react-native/Cloud.js', 438, 420 ]
+487 silly gunzTarPerm extractEntry lib/react-native/unique.js
+488 silly gunzTarPerm modified mode [ 'lib/react-native/unique.js', 438, 420 ]
+489 silly gunzTarPerm extractEntry lib/react-native/canBeSerialized.js
+490 silly gunzTarPerm modified mode [ 'lib/react-native/canBeSerialized.js', 438, 420 ]
+491 silly gunzTarPerm extractEntry lib/react-native/UniqueInstanceStateController.js
+492 silly gunzTarPerm modified mode [ 'lib/react-native/UniqueInstanceStateController.js', 438, 420 ]
+493 silly gunzTarPerm extractEntry lib/react-native/arrayContainsObject.js
+494 silly gunzTarPerm modified mode [ 'lib/react-native/arrayContainsObject.js', 438, 420 ]
+495 silly gunzTarPerm extractEntry lib/react-native/unsavedChildren.js
+496 silly gunzTarPerm modified mode [ 'lib/react-native/unsavedChildren.js', 438, 420 ]
+497 silly gunzTarPerm extractEntry lib/react-native/ParseGeoPoint.js
+498 silly gunzTarPerm modified mode [ 'lib/react-native/ParseGeoPoint.js', 438, 420 ]
+499 silly gunzTarPerm extractEntry PATENTS
+500 silly gunzTarPerm modified mode [ 'PATENTS', 438, 420 ]
+501 verbose read json C:\Users\nmckenzie\AppData\Roaming\npm-cache\parse\1.8.5\package\package.json
+502 silly lockFile 914b99f3-ng-npm-cache-parse-1-8-5-package C:\Users\nmckenzie\AppData\Roaming\npm-cache\parse\1.8.5\package
+503 silly lockFile 914b99f3-ng-npm-cache-parse-1-8-5-package C:\Users\nmckenzie\AppData\Roaming\npm-cache\parse\1.8.5\package
+504 silly lockFile 909ad3d1-pm-cache-parse-1-8-5-package-tgz C:\Users\nmckenzie\AppData\Roaming\npm-cache\parse\1.8.5\package.tgz
+505 silly lockFile 909ad3d1-pm-cache-parse-1-8-5-package-tgz C:\Users\nmckenzie\AppData\Roaming\npm-cache\parse\1.8.5\package.tgz
+506 silly shasum updated bytes 65536
+507 silly shasum updated bytes 65536
+508 silly shasum updated bytes 65536
+509 silly shasum updated bytes 65536
+510 silly shasum updated bytes 50653
+511 info shasum 7fedfe7b9ea310c033df20a82e86790edb3e088b
+511 info shasum C:\Users\nmckenzie\AppData\Roaming\npm-cache\parse\1.8.5\package.tgz
+512 verbose from cache C:\Users\nmckenzie\AppData\Roaming\npm-cache\parse\1.8.5\package\package.json
+513 verbose chmod C:\Users\nmckenzie\AppData\Roaming\npm-cache\parse\1.8.5\package.tgz 644
+514 silly chown skipping for windows C:\Users\nmckenzie\AppData\Roaming\npm-cache\parse\1.8.5\package.tgz
+515 silly lockFile 20c63326--npmjs-org-parse-parse-1-8-5-tgz https://registry.npmjs.org/parse/-/parse-1.8.5.tgz
+516 silly lockFile 20c63326--npmjs-org-parse-parse-1-8-5-tgz https://registry.npmjs.org/parse/-/parse-1.8.5.tgz
+517 silly lockFile 96f35136-parse-1-8-5 parse@1.8.5
+518 silly lockFile 96f35136-parse-1-8-5 parse@1.8.5
+519 silly lockFile 97dc7484-parse parse@
+520 silly lockFile 97dc7484-parse parse@
+521 silly resolved [ { name: 'parse',
+521 silly resolved     version: '1.8.5',
+521 silly resolved     description: 'The Parse JavaScript SDK',
+521 silly resolved     homepage: 'https://www.parse.com',
+521 silly resolved     keywords: [ 'cloud', 'mobile', 'api' ],
+521 silly resolved     license: 'BSD-3-Clause',
+521 silly resolved     repository:
+521 silly resolved      { type: 'git',
+521 silly resolved        url: 'https://github.com/ParsePlatform/Parse-SDK-JS' },
+521 silly resolved     bugs: 'https://github.com/ParsePlatform/Parse-SDK-JS/issues',
+521 silly resolved     files:
+521 silly resolved      [ 'index.js',
+521 silly resolved        'node.js',
+521 silly resolved        'react-native.js',
+521 silly resolved        'dist/',
+521 silly resolved        'lib/',
+521 silly resolved        'LICENSE',
+521 silly resolved        'PATENTS',
+521 silly resolved        'README.md' ],
+521 silly resolved     browser: { 'react-native': false },
+521 silly resolved     dependencies:
+521 silly resolved      { 'babel-runtime': '^5.8.20',
+521 silly resolved        ws: '^1.0.1',
+521 silly resolved        xmlhttprequest: '^1.7.0' },
+521 silly resolved     devDependencies:
+521 silly resolved      { 'babel-jest': '~5.3.0',
+521 silly resolved        'babel-plugin-flow-comments': '^1.0.9',
+521 silly resolved        'babel-plugin-inline-package-json': '~1.0.1',
+521 silly resolved        browserify: '^11.0.1',
+521 silly resolved        'codecov.io': '^0.1.6',
+521 silly resolved        gulp: '^3.9.0',
+521 silly resolved        'gulp-babel': '^5.2.0',
+521 silly resolved        'gulp-derequire': '^2.1.0',
+521 silly resolved        'gulp-insert': '^0.5.0',
+521 silly resolved        'gulp-rename': '^1.2.2',
+521 silly resolved        'gulp-replace': '^0.5.4',
+521 silly resolved        'gulp-uglify': '^1.4.0',
+521 silly resolved        'jasmine-reporters': '~1.0.0',
+521 silly resolved        'jest-cli': '~0.5.0',
+521 silly resolved        'vinyl-source-stream': '^1.1.0' },
+521 silly resolved     scripts:
+521 silly resolved      { build: './build_releases.sh',
+521 silly resolved        release: './build_releases.sh && npm publish',
+521 silly resolved        test: 'PARSE_BUILD=node jest' },
+521 silly resolved     jest:
+521 silly resolved      { collectCoverage: true,
+521 silly resolved        testPathDirs: [Object],
+521 silly resolved        testPathIgnorePatterns: [Object],
+521 silly resolved        scriptPreprocessor: 'node_modules/babel-jest',
+521 silly resolved        setupTestFrameworkScriptFile: 'setup-jest.js' },
+521 silly resolved     readme: '# Parse SDK for JavaScript\n[![Build Status][build-status-svg]][build-status-link]\n[![Test Coverage][coverage-status-svg]][coverage-status-link]\n[![Npm Version][npm-svg]][npm-link]\n[![License][license-svg]][license-link]\n\nA library that gives you access to the powerful Parse cloud platform from your JavaScript app. For more information on Parse and its features, see [the website](https://parse.com) or [the JavaScript guide](https://parse.com/docs/js/guide).\n\n## Getting Started\n\nThe SDK is available for download [on our website](https://parse.com/downloads) or [on our CDN](http://www.parsecdn.com/js/parse-latest.js). However, the easiest way to integrate it into your JavaScript project is through the [npm module](https://npmjs.org/parse).\n\n### Using Parse on Different Platforms\n\nThe JavaScript ecosystem is wide and incorporates a large number of platforms and execution environments. To handle this, the Parse npm module contains special versions of the SDK tailored to use in Node.js and [React Native](https://facebook.github.io/react-native/) environments. Not all features make sense in all environments, so using the appropriate package will ensure that items like local storage, user sessions, and HTTP requests use appropriate dependencies.\n\nTo use the npm modules for a browser based application, include it as you normally would:\n\n```js\nvar Parse = require(\'parse\');\n```\n\nFor server-side applications or Node.js command line tools, include `\'parse/node\'`:\n\n```js\n// In a node.js environment\nvar Parse = require(\'parse/node\');\n```\n\nFor React Native applications, include `\'parse/react-native\'`:\n```js\n// In a React Native application\nvar Parse = require(\'parse/react-native\');\n```\n\n## License\n\n```\nCopyright (c) 2015-present, Parse, LLC.\nAll rights reserved.\n\nThis source code is licensed under the BSD-style license found in the\nLICENSE file in the root directory of this source tree. An additional grant \nof patent rights can be found in the PATENTS file in the same directory.\n```\n\n [build-status-svg]: https://travis-ci.org/ParsePlatform/Parse-SDK-JS.svg?branch=master\n [build-status-link]: https://travis-ci.org/ParsePlatform/Parse-SDK-JS\n [coverage-status-svg]: http://codecov.io/github/ParsePlatform/Parse-SDK-JS/coverage.svg?branch=master\n [coverage-status-link]: http://codecov.io/github/ParsePlatform/Parse-SDK-JS?branch=master\n [npm-svg]: https://badge.fury.io/js/parse.svg\n [npm-link]: https://npmjs.org/parse\n [license-svg]: https://img.shields.io/badge/license-BSD-lightgrey.svg\n [license-link]: https://github.com/ParsePlatform/Parse-SDK-JS/blob/master/LICENSE\n',
+521 silly resolved     readmeFilename: 'README.md',
+521 silly resolved     _id: 'parse@1.8.5',
+521 silly resolved     dist: { shasum: '7fedfe7b9ea310c033df20a82e86790edb3e088b' },
+521 silly resolved     _from: 'parse@',
+521 silly resolved     _resolved: 'https://registry.npmjs.org/parse/-/parse-1.8.5.tgz' } ]
+522 info install parse@1.8.5 into C:\Users\nmckenzie\AppData\Roaming\npm
+523 info installOne parse@1.8.5
+524 verbose from cache C:\Users\nmckenzie\AppData\Roaming\npm-cache\parse\1.8.5\package\package.json
+525 info C:\Users\nmckenzie\AppData\Roaming\npm\node_modules\parse unbuild
+526 verbose read json C:\Users\nmckenzie\AppData\Roaming\npm\node_modules\parse\package.json
+527 verbose tar unpack C:\Users\nmckenzie\AppData\Roaming\npm-cache\parse\1.8.5\package.tgz
+528 silly lockFile f76b1584-a-Roaming-npm-node-modules-parse C:\Users\nmckenzie\AppData\Roaming\npm\node_modules\parse
+529 verbose lock C:\Users\nmckenzie\AppData\Roaming\npm\node_modules\parse C:\Users\nmckenzie\AppData\Roaming\npm-cache\f76b1584-a-Roaming-npm-node-modules-parse.lock
+530 silly lockFile 909ad3d1-pm-cache-parse-1-8-5-package-tgz C:\Users\nmckenzie\AppData\Roaming\npm-cache\parse\1.8.5\package.tgz
+531 verbose lock C:\Users\nmckenzie\AppData\Roaming\npm-cache\parse\1.8.5\package.tgz C:\Users\nmckenzie\AppData\Roaming\npm-cache\909ad3d1-pm-cache-parse-1-8-5-package-tgz.lock
+532 silly gunzTarPerm modes [ '755', '644' ]
+533 silly gunzTarPerm extractEntry package.json
+534 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+535 silly gunzTarPerm extractEntry README.md
+536 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+537 silly gunzTarPerm extractEntry LICENSE
+538 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+539 silly gunzTarPerm extractEntry index.js
+540 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+541 silly gunzTarPerm extractEntry node.js
+542 silly gunzTarPerm modified mode [ 'node.js', 438, 420 ]
+543 silly gunzTarPerm extractEntry react-native.js
+544 silly gunzTarPerm modified mode [ 'react-native.js', 438, 420 ]
+545 silly gunzTarPerm extractEntry dist/parse-latest.js
+546 silly gunzTarPerm modified mode [ 'dist/parse-latest.js', 438, 420 ]
+547 silly gunzTarPerm extractEntry dist/parse-latest.min.js
+548 silly gunzTarPerm modified mode [ 'dist/parse-latest.min.js', 438, 420 ]
+549 silly gunzTarPerm extractEntry lib/browser/Analytics.js
+550 silly gunzTarPerm modified mode [ 'lib/browser/Analytics.js', 438, 420 ]
+551 silly gunzTarPerm extractEntry lib/browser/ParseConfig.js
+552 silly gunzTarPerm modified mode [ 'lib/browser/ParseConfig.js', 438, 420 ]
+553 silly gunzTarPerm extractEntry lib/browser/parseDate.js
+554 silly gunzTarPerm modified mode [ 'lib/browser/parseDate.js', 438, 420 ]
+555 silly gunzTarPerm extractEntry lib/browser/ParseError.js
+556 silly gunzTarPerm modified mode [ 'lib/browser/ParseError.js', 438, 420 ]
+557 silly gunzTarPerm extractEntry lib/browser/ParseFile.js
+558 silly gunzTarPerm modified mode [ 'lib/browser/ParseFile.js', 438, 420 ]
+559 silly gunzTarPerm extractEntry lib/browser/ParseACL.js
+560 silly gunzTarPerm modified mode [ 'lib/browser/ParseACL.js', 438, 420 ]
+561 silly gunzTarPerm extractEntry lib/browser/ParseInstallation.js
+562 silly gunzTarPerm modified mode [ 'lib/browser/ParseInstallation.js', 438, 420 ]
+563 silly gunzTarPerm extractEntry lib/browser/ParseLiveQuery.js
+564 silly gunzTarPerm modified mode [ 'lib/browser/ParseLiveQuery.js', 438, 420 ]
+565 silly gunzTarPerm extractEntry lib/browser/ParseObject.js
+566 silly gunzTarPerm modified mode [ 'lib/browser/ParseObject.js', 438, 420 ]
+567 silly gunzTarPerm extractEntry lib/browser/ParseOp.js
+568 silly gunzTarPerm modified mode [ 'lib/browser/ParseOp.js', 438, 420 ]
+569 silly gunzTarPerm extractEntry lib/browser/ParsePromise.js
+570 silly gunzTarPerm modified mode [ 'lib/browser/ParsePromise.js', 438, 420 ]
+571 silly gunzTarPerm extractEntry lib/browser/Parse.js
+572 silly gunzTarPerm modified mode [ 'lib/browser/Parse.js', 438, 420 ]
+573 silly gunzTarPerm extractEntry lib/browser/ParseQuery.js
+574 silly gunzTarPerm modified mode [ 'lib/browser/ParseQuery.js', 438, 420 ]
+575 silly gunzTarPerm extractEntry lib/browser/ObjectStateMutations.js
+576 silly gunzTarPerm modified mode [ 'lib/browser/ObjectStateMutations.js', 438, 420 ]
+577 silly gunzTarPerm extractEntry lib/browser/ParseRelation.js
+578 silly gunzTarPerm modified mode [ 'lib/browser/ParseRelation.js', 438, 420 ]
+579 silly gunzTarPerm extractEntry lib/browser/LiveQuerySubscription.js
+580 silly gunzTarPerm modified mode [ 'lib/browser/LiveQuerySubscription.js', 438, 420 ]
+581 silly gunzTarPerm extractEntry lib/browser/ParseRole.js
+582 silly gunzTarPerm modified mode [ 'lib/browser/ParseRole.js', 438, 420 ]
+583 silly gunzTarPerm extractEntry lib/browser/LiveQueryClient.js
+584 silly gunzTarPerm modified mode [ 'lib/browser/LiveQueryClient.js', 438, 420 ]
+585 silly gunzTarPerm extractEntry lib/browser/ParseSession.js
+586 silly gunzTarPerm modified mode [ 'lib/browser/ParseSession.js', 438, 420 ]
+587 silly gunzTarPerm extractEntry lib/browser/isRevocableSession.js
+588 silly gunzTarPerm modified mode [ 'lib/browser/isRevocableSession.js', 438, 420 ]
+589 silly gunzTarPerm extractEntry lib/browser/ParseUser.js
+590 silly gunzTarPerm modified mode [ 'lib/browser/ParseUser.js', 438, 420 ]
+591 silly gunzTarPerm extractEntry lib/browser/InstallationController.js
+592 silly gunzTarPerm modified mode [ 'lib/browser/InstallationController.js', 438, 420 ]
+593 silly gunzTarPerm extractEntry lib/browser/Push.js
+594 silly gunzTarPerm modified mode [ 'lib/browser/Push.js', 438, 420 ]
+595 silly gunzTarPerm extractEntry lib/browser/FacebookUtils.js
+596 silly gunzTarPerm modified mode [ 'lib/browser/FacebookUtils.js', 438, 420 ]
+597 silly gunzTarPerm extractEntry lib/browser/RESTController.js
+598 silly gunzTarPerm modified mode [ 'lib/browser/RESTController.js', 438, 420 ]
+599 silly gunzTarPerm extractEntry lib/browser/EventEmitter.js
+600 silly gunzTarPerm modified mode [ 'lib/browser/EventEmitter.js', 438, 420 ]
+601 silly gunzTarPerm extractEntry lib/browser/SingleInstanceStateController.js
+602 silly gunzTarPerm modified mode [ 'lib/browser/SingleInstanceStateController.js', 438, 420 ]
+603 silly gunzTarPerm extractEntry lib/browser/escape.js
+604 silly gunzTarPerm modified mode [ 'lib/browser/escape.js', 438, 420 ]
+605 silly gunzTarPerm extractEntry lib/browser/Storage.js
+606 silly gunzTarPerm modified mode [ 'lib/browser/Storage.js', 438, 420 ]
+607 silly gunzTarPerm extractEntry lib/browser/equals.js
+608 silly gunzTarPerm modified mode [ 'lib/browser/equals.js', 438, 420 ]
+609 silly gunzTarPerm extractEntry lib/browser/StorageController.browser.js
+610 silly gunzTarPerm modified mode [ 'lib/browser/StorageController.browser.js', 438, 420 ]
+611 silly gunzTarPerm extractEntry lib/browser/encode.js
+612 silly gunzTarPerm modified mode [ 'lib/browser/encode.js', 438, 420 ]
+613 silly gunzTarPerm extractEntry lib/browser/StorageController.default.js
+614 silly gunzTarPerm modified mode [ 'lib/browser/StorageController.default.js', 438, 420 ]
+615 silly gunzTarPerm extractEntry lib/browser/decode.js
+616 silly gunzTarPerm modified mode [ 'lib/browser/decode.js', 438, 420 ]
+617 silly gunzTarPerm extractEntry lib/browser/StorageController.react-native.js
+618 silly gunzTarPerm modified mode [ 'lib/browser/StorageController.react-native.js', 438, 420 ]
+619 silly gunzTarPerm extractEntry lib/browser/CoreManager.js
+620 silly gunzTarPerm modified mode [ 'lib/browser/CoreManager.js', 438, 420 ]
+621 silly gunzTarPerm extractEntry lib/browser/TaskQueue.js
+622 silly gunzTarPerm modified mode [ 'lib/browser/TaskQueue.js', 438, 420 ]
+623 silly gunzTarPerm extractEntry lib/browser/Cloud.js
+624 silly gunzTarPerm modified mode [ 'lib/browser/Cloud.js', 438, 420 ]
+625 silly gunzTarPerm extractEntry lib/browser/unique.js
+626 silly gunzTarPerm modified mode [ 'lib/browser/unique.js', 438, 420 ]
+627 silly gunzTarPerm extractEntry lib/browser/canBeSerialized.js
+628 silly gunzTarPerm modified mode [ 'lib/browser/canBeSerialized.js', 438, 420 ]
+629 silly gunzTarPerm extractEntry lib/browser/UniqueInstanceStateController.js
+630 silly gunzTarPerm modified mode [ 'lib/browser/UniqueInstanceStateController.js', 438, 420 ]
+631 silly gunzTarPerm extractEntry lib/browser/arrayContainsObject.js
+632 silly gunzTarPerm modified mode [ 'lib/browser/arrayContainsObject.js', 438, 420 ]
+633 silly gunzTarPerm extractEntry lib/browser/unsavedChildren.js
+634 silly gunzTarPerm modified mode [ 'lib/browser/unsavedChildren.js', 438, 420 ]
+635 silly gunzTarPerm extractEntry lib/browser/ParseGeoPoint.js
+636 silly gunzTarPerm modified mode [ 'lib/browser/ParseGeoPoint.js', 438, 420 ]
+637 silly gunzTarPerm extractEntry lib/node/Analytics.js
+638 silly gunzTarPerm modified mode [ 'lib/node/Analytics.js', 438, 420 ]
+639 silly gunzTarPerm extractEntry lib/node/ParseConfig.js
+640 silly gunzTarPerm modified mode [ 'lib/node/ParseConfig.js', 438, 420 ]
+641 silly gunzTarPerm extractEntry lib/node/parseDate.js
+642 silly gunzTarPerm modified mode [ 'lib/node/parseDate.js', 438, 420 ]
+643 silly gunzTarPerm extractEntry lib/node/ParseError.js
+644 silly gunzTarPerm modified mode [ 'lib/node/ParseError.js', 438, 420 ]
+645 silly gunzTarPerm extractEntry lib/node/ParseFile.js
+646 silly gunzTarPerm modified mode [ 'lib/node/ParseFile.js', 438, 420 ]
+647 silly gunzTarPerm extractEntry lib/node/ParseACL.js
+648 silly gunzTarPerm modified mode [ 'lib/node/ParseACL.js', 438, 420 ]
+649 silly gunzTarPerm extractEntry lib/node/ParseInstallation.js
+650 silly gunzTarPerm modified mode [ 'lib/node/ParseInstallation.js', 438, 420 ]
+651 silly gunzTarPerm extractEntry lib/node/ParseLiveQuery.js
+652 silly gunzTarPerm modified mode [ 'lib/node/ParseLiveQuery.js', 438, 420 ]
+653 silly gunzTarPerm extractEntry lib/node/ParseObject.js
+654 silly gunzTarPerm modified mode [ 'lib/node/ParseObject.js', 438, 420 ]
+655 silly gunzTarPerm extractEntry lib/node/ParseOp.js
+656 silly gunzTarPerm modified mode [ 'lib/node/ParseOp.js', 438, 420 ]
+657 silly gunzTarPerm extractEntry lib/node/ParsePromise.js
+658 silly gunzTarPerm modified mode [ 'lib/node/ParsePromise.js', 438, 420 ]
+659 silly gunzTarPerm extractEntry lib/node/Parse.js
+660 silly gunzTarPerm modified mode [ 'lib/node/Parse.js', 438, 420 ]
+661 silly gunzTarPerm extractEntry lib/node/ParseQuery.js
+662 silly gunzTarPerm modified mode [ 'lib/node/ParseQuery.js', 438, 420 ]
+663 silly gunzTarPerm extractEntry lib/node/ObjectStateMutations.js
+664 silly gunzTarPerm modified mode [ 'lib/node/ObjectStateMutations.js', 438, 420 ]
+665 silly gunzTarPerm extractEntry lib/node/ParseRelation.js
+666 silly gunzTarPerm modified mode [ 'lib/node/ParseRelation.js', 438, 420 ]
+667 silly gunzTarPerm extractEntry lib/node/LiveQuerySubscription.js
+668 silly gunzTarPerm modified mode [ 'lib/node/LiveQuerySubscription.js', 438, 420 ]
+669 silly gunzTarPerm extractEntry lib/node/ParseRole.js
+670 silly gunzTarPerm modified mode [ 'lib/node/ParseRole.js', 438, 420 ]
+671 silly gunzTarPerm extractEntry lib/node/LiveQueryClient.js
+672 silly gunzTarPerm modified mode [ 'lib/node/LiveQueryClient.js', 438, 420 ]
+673 silly gunzTarPerm extractEntry lib/node/ParseSession.js
+674 silly gunzTarPerm modified mode [ 'lib/node/ParseSession.js', 438, 420 ]
+675 silly gunzTarPerm extractEntry lib/node/isRevocableSession.js
+676 silly gunzTarPerm modified mode [ 'lib/node/isRevocableSession.js', 438, 420 ]
+677 silly gunzTarPerm extractEntry lib/node/ParseUser.js
+678 silly gunzTarPerm modified mode [ 'lib/node/ParseUser.js', 438, 420 ]
+679 silly gunzTarPerm extractEntry lib/node/InstallationController.js
+680 silly gunzTarPerm modified mode [ 'lib/node/InstallationController.js', 438, 420 ]
+681 silly gunzTarPerm extractEntry lib/node/Push.js
+682 silly gunzTarPerm modified mode [ 'lib/node/Push.js', 438, 420 ]
+683 silly gunzTarPerm extractEntry lib/node/FacebookUtils.js
+684 silly gunzTarPerm modified mode [ 'lib/node/FacebookUtils.js', 438, 420 ]
+685 silly gunzTarPerm extractEntry lib/node/RESTController.js
+686 silly gunzTarPerm modified mode [ 'lib/node/RESTController.js', 438, 420 ]
+687 silly gunzTarPerm extractEntry lib/node/EventEmitter.js
+688 silly gunzTarPerm modified mode [ 'lib/node/EventEmitter.js', 438, 420 ]
+689 silly gunzTarPerm extractEntry lib/node/SingleInstanceStateController.js
+690 silly gunzTarPerm modified mode [ 'lib/node/SingleInstanceStateController.js', 438, 420 ]
+691 silly gunzTarPerm extractEntry lib/node/escape.js
+692 silly gunzTarPerm modified mode [ 'lib/node/escape.js', 438, 420 ]
+693 silly gunzTarPerm extractEntry lib/node/Storage.js
+694 silly gunzTarPerm modified mode [ 'lib/node/Storage.js', 438, 420 ]
+695 silly gunzTarPerm extractEntry lib/node/equals.js
+696 silly gunzTarPerm modified mode [ 'lib/node/equals.js', 438, 420 ]
+697 silly gunzTarPerm extractEntry lib/node/StorageController.browser.js
+698 silly gunzTarPerm modified mode [ 'lib/node/StorageController.browser.js', 438, 420 ]
+699 silly gunzTarPerm extractEntry lib/node/encode.js
+700 silly gunzTarPerm modified mode [ 'lib/node/encode.js', 438, 420 ]
+701 silly gunzTarPerm extractEntry lib/node/StorageController.default.js
+702 silly gunzTarPerm modified mode [ 'lib/node/StorageController.default.js', 438, 420 ]
+703 silly gunzTarPerm extractEntry lib/node/decode.js
+704 silly gunzTarPerm modified mode [ 'lib/node/decode.js', 438, 420 ]
+705 silly gunzTarPerm extractEntry lib/node/StorageController.react-native.js
+706 silly gunzTarPerm modified mode [ 'lib/node/StorageController.react-native.js', 438, 420 ]
+707 silly gunzTarPerm extractEntry lib/node/CoreManager.js
+708 silly gunzTarPerm modified mode [ 'lib/node/CoreManager.js', 438, 420 ]
+709 silly gunzTarPerm extractEntry lib/node/TaskQueue.js
+710 silly gunzTarPerm modified mode [ 'lib/node/TaskQueue.js', 438, 420 ]
+711 silly gunzTarPerm extractEntry lib/node/Cloud.js
+712 silly gunzTarPerm modified mode [ 'lib/node/Cloud.js', 438, 420 ]
+713 silly gunzTarPerm extractEntry lib/node/unique.js
+714 silly gunzTarPerm modified mode [ 'lib/node/unique.js', 438, 420 ]
+715 silly gunzTarPerm extractEntry lib/node/canBeSerialized.js
+716 silly gunzTarPerm modified mode [ 'lib/node/canBeSerialized.js', 438, 420 ]
+717 silly gunzTarPerm extractEntry lib/node/UniqueInstanceStateController.js
+718 silly gunzTarPerm modified mode [ 'lib/node/UniqueInstanceStateController.js', 438, 420 ]
+719 silly gunzTarPerm extractEntry lib/node/arrayContainsObject.js
+720 silly gunzTarPerm modified mode [ 'lib/node/arrayContainsObject.js', 438, 420 ]
+721 silly gunzTarPerm extractEntry lib/node/unsavedChildren.js
+722 silly gunzTarPerm modified mode [ 'lib/node/unsavedChildren.js', 438, 420 ]
+723 silly gunzTarPerm extractEntry lib/node/ParseGeoPoint.js
+724 silly gunzTarPerm modified mode [ 'lib/node/ParseGeoPoint.js', 438, 420 ]
+725 silly gunzTarPerm extractEntry lib/react-native/Analytics.js
+726 silly gunzTarPerm modified mode [ 'lib/react-native/Analytics.js', 438, 420 ]
+727 silly gunzTarPerm extractEntry lib/react-native/ParseConfig.js
+728 silly gunzTarPerm modified mode [ 'lib/react-native/ParseConfig.js', 438, 420 ]
+729 silly gunzTarPerm extractEntry lib/react-native/parseDate.js
+730 silly gunzTarPerm modified mode [ 'lib/react-native/parseDate.js', 438, 420 ]
+731 silly gunzTarPerm extractEntry lib/react-native/ParseError.js
+732 silly gunzTarPerm modified mode [ 'lib/react-native/ParseError.js', 438, 420 ]
+733 silly gunzTarPerm extractEntry lib/react-native/ParseFile.js
+734 silly gunzTarPerm modified mode [ 'lib/react-native/ParseFile.js', 438, 420 ]
+735 silly gunzTarPerm extractEntry lib/react-native/ParseACL.js
+736 silly gunzTarPerm modified mode [ 'lib/react-native/ParseACL.js', 438, 420 ]
+737 silly gunzTarPerm extractEntry lib/react-native/ParseInstallation.js
+738 silly gunzTarPerm modified mode [ 'lib/react-native/ParseInstallation.js', 438, 420 ]
+739 silly gunzTarPerm extractEntry lib/react-native/ParseLiveQuery.js
+740 silly gunzTarPerm modified mode [ 'lib/react-native/ParseLiveQuery.js', 438, 420 ]
+741 silly gunzTarPerm extractEntry lib/react-native/ParseObject.js
+742 silly gunzTarPerm modified mode [ 'lib/react-native/ParseObject.js', 438, 420 ]
+743 silly gunzTarPerm extractEntry lib/react-native/ParseOp.js
+744 silly gunzTarPerm modified mode [ 'lib/react-native/ParseOp.js', 438, 420 ]
+745 silly gunzTarPerm extractEntry lib/react-native/ParsePromise.js
+746 silly gunzTarPerm modified mode [ 'lib/react-native/ParsePromise.js', 438, 420 ]
+747 silly gunzTarPerm extractEntry lib/react-native/Parse.js
+748 silly gunzTarPerm modified mode [ 'lib/react-native/Parse.js', 438, 420 ]
+749 silly gunzTarPerm extractEntry lib/react-native/ParseQuery.js
+750 silly gunzTarPerm modified mode [ 'lib/react-native/ParseQuery.js', 438, 420 ]
+751 silly gunzTarPerm extractEntry lib/react-native/ObjectStateMutations.js
+752 silly gunzTarPerm modified mode [ 'lib/react-native/ObjectStateMutations.js', 438, 420 ]
+753 silly gunzTarPerm extractEntry lib/react-native/ParseRelation.js
+754 silly gunzTarPerm modified mode [ 'lib/react-native/ParseRelation.js', 438, 420 ]
+755 silly gunzTarPerm extractEntry lib/react-native/LiveQuerySubscription.js
+756 silly gunzTarPerm modified mode [ 'lib/react-native/LiveQuerySubscription.js', 438, 420 ]
+757 silly gunzTarPerm extractEntry lib/react-native/ParseRole.js
+758 silly gunzTarPerm modified mode [ 'lib/react-native/ParseRole.js', 438, 420 ]
+759 silly gunzTarPerm extractEntry lib/react-native/LiveQueryClient.js
+760 silly gunzTarPerm modified mode [ 'lib/react-native/LiveQueryClient.js', 438, 420 ]
+761 silly gunzTarPerm extractEntry lib/react-native/ParseSession.js
+762 silly gunzTarPerm modified mode [ 'lib/react-native/ParseSession.js', 438, 420 ]
+763 silly gunzTarPerm extractEntry lib/react-native/isRevocableSession.js
+764 silly gunzTarPerm modified mode [ 'lib/react-native/isRevocableSession.js', 438, 420 ]
+765 silly gunzTarPerm extractEntry lib/react-native/ParseUser.js
+766 silly gunzTarPerm modified mode [ 'lib/react-native/ParseUser.js', 438, 420 ]
+767 silly gunzTarPerm extractEntry lib/react-native/InstallationController.js
+768 silly gunzTarPerm modified mode [ 'lib/react-native/InstallationController.js', 438, 420 ]
+769 silly gunzTarPerm extractEntry lib/react-native/Push.js
+770 silly gunzTarPerm modified mode [ 'lib/react-native/Push.js', 438, 420 ]
+771 silly gunzTarPerm extractEntry lib/react-native/FacebookUtils.js
+772 silly gunzTarPerm modified mode [ 'lib/react-native/FacebookUtils.js', 438, 420 ]
+773 silly gunzTarPerm extractEntry lib/react-native/RESTController.js
+774 silly gunzTarPerm modified mode [ 'lib/react-native/RESTController.js', 438, 420 ]
+775 silly gunzTarPerm extractEntry lib/react-native/EventEmitter.js
+776 silly gunzTarPerm modified mode [ 'lib/react-native/EventEmitter.js', 438, 420 ]
+777 silly gunzTarPerm extractEntry lib/react-native/SingleInstanceStateController.js
+778 silly gunzTarPerm modified mode [ 'lib/react-native/SingleInstanceStateController.js', 438, 420 ]
+779 silly gunzTarPerm extractEntry lib/react-native/escape.js
+780 silly gunzTarPerm modified mode [ 'lib/react-native/escape.js', 438, 420 ]
+781 silly gunzTarPerm extractEntry lib/react-native/Storage.js
+782 silly gunzTarPerm modified mode [ 'lib/react-native/Storage.js', 438, 420 ]
+783 silly gunzTarPerm extractEntry lib/react-native/equals.js
+784 silly gunzTarPerm modified mode [ 'lib/react-native/equals.js', 438, 420 ]
+785 silly gunzTarPerm extractEntry lib/react-native/StorageController.browser.js
+786 silly gunzTarPerm modified mode [ 'lib/react-native/StorageController.browser.js', 438, 420 ]
+787 silly gunzTarPerm extractEntry lib/react-native/encode.js
+788 silly gunzTarPerm modified mode [ 'lib/react-native/encode.js', 438, 420 ]
+789 silly gunzTarPerm extractEntry lib/react-native/StorageController.default.js
+790 silly gunzTarPerm modified mode [ 'lib/react-native/StorageController.default.js', 438, 420 ]
+791 silly gunzTarPerm extractEntry lib/react-native/decode.js
+792 silly gunzTarPerm modified mode [ 'lib/react-native/decode.js', 438, 420 ]
+793 silly gunzTarPerm extractEntry lib/react-native/StorageController.react-native.js
+794 silly gunzTarPerm modified mode [ 'lib/react-native/StorageController.react-native.js',
+794 silly gunzTarPerm   438,
+794 silly gunzTarPerm   420 ]
+795 silly gunzTarPerm extractEntry lib/react-native/CoreManager.js
+796 silly gunzTarPerm modified mode [ 'lib/react-native/CoreManager.js', 438, 420 ]
+797 silly gunzTarPerm extractEntry lib/react-native/TaskQueue.js
+798 silly gunzTarPerm modified mode [ 'lib/react-native/TaskQueue.js', 438, 420 ]
+799 silly gunzTarPerm extractEntry lib/react-native/Cloud.js
+800 silly gunzTarPerm modified mode [ 'lib/react-native/Cloud.js', 438, 420 ]
+801 silly gunzTarPerm extractEntry lib/react-native/unique.js
+802 silly gunzTarPerm modified mode [ 'lib/react-native/unique.js', 438, 420 ]
+803 silly gunzTarPerm extractEntry lib/react-native/canBeSerialized.js
+804 silly gunzTarPerm modified mode [ 'lib/react-native/canBeSerialized.js', 438, 420 ]
+805 silly gunzTarPerm extractEntry lib/react-native/UniqueInstanceStateController.js
+806 silly gunzTarPerm modified mode [ 'lib/react-native/UniqueInstanceStateController.js', 438, 420 ]
+807 silly gunzTarPerm extractEntry lib/react-native/arrayContainsObject.js
+808 silly gunzTarPerm modified mode [ 'lib/react-native/arrayContainsObject.js', 438, 420 ]
+809 silly gunzTarPerm extractEntry lib/react-native/unsavedChildren.js
+810 silly gunzTarPerm modified mode [ 'lib/react-native/unsavedChildren.js', 438, 420 ]
+811 silly gunzTarPerm extractEntry lib/react-native/ParseGeoPoint.js
+812 silly gunzTarPerm modified mode [ 'lib/react-native/ParseGeoPoint.js', 438, 420 ]
+813 silly gunzTarPerm extractEntry PATENTS
+814 silly gunzTarPerm modified mode [ 'PATENTS', 438, 420 ]
+815 verbose read json C:\Users\nmckenzie\AppData\Roaming\npm\node_modules\parse\package.json
+816 silly lockFile f76b1584-a-Roaming-npm-node-modules-parse C:\Users\nmckenzie\AppData\Roaming\npm\node_modules\parse
+817 silly lockFile f76b1584-a-Roaming-npm-node-modules-parse C:\Users\nmckenzie\AppData\Roaming\npm\node_modules\parse
+818 silly lockFile 909ad3d1-pm-cache-parse-1-8-5-package-tgz C:\Users\nmckenzie\AppData\Roaming\npm-cache\parse\1.8.5\package.tgz
+819 silly lockFile 909ad3d1-pm-cache-parse-1-8-5-package-tgz C:\Users\nmckenzie\AppData\Roaming\npm-cache\parse\1.8.5\package.tgz
+820 info preinstall parse@1.8.5
+821 verbose from cache C:\Users\nmckenzie\AppData\Roaming\npm\node_modules\parse\package.json
+822 verbose readDependencies using package.json deps
+823 verbose from cache C:\Users\nmckenzie\AppData\Roaming\npm\node_modules\parse\package.json
+824 verbose readDependencies using package.json deps
+825 verbose cache add [ 'babel-runtime@^5.8.20', null ]
+826 verbose cache add name=undefined spec="babel-runtime@^5.8.20" args=["babel-runtime@^5.8.20",null]
+827 verbose parsed url { protocol: null,
+827 verbose parsed url   slashes: null,
+827 verbose parsed url   auth: null,
+827 verbose parsed url   host: null,
+827 verbose parsed url   port: null,
+827 verbose parsed url   hostname: null,
+827 verbose parsed url   hash: null,
+827 verbose parsed url   search: null,
+827 verbose parsed url   query: null,
+827 verbose parsed url   pathname: 'babel-runtime@^5.8.20',
+827 verbose parsed url   path: 'babel-runtime@^5.8.20',
+827 verbose parsed url   href: 'babel-runtime@^5.8.20' }
+828 verbose cache add name="babel-runtime" spec="^5.8.20" args=["babel-runtime","^5.8.20"]
+829 verbose parsed url { protocol: null,
+829 verbose parsed url   slashes: null,
+829 verbose parsed url   auth: null,
+829 verbose parsed url   host: null,
+829 verbose parsed url   port: null,
+829 verbose parsed url   hostname: null,
+829 verbose parsed url   hash: null,
+829 verbose parsed url   search: null,
+829 verbose parsed url   query: null,
+829 verbose parsed url   pathname: '^5.8.20',
+829 verbose parsed url   path: '^5.8.20',
+829 verbose parsed url   href: '^5.8.20' }
+830 verbose addNamed [ 'babel-runtime', '^5.8.20' ]
+831 verbose addNamed [ null, null ]
+832 silly lockFile d2d99cde-babel-runtime-5-8-20 babel-runtime@^5.8.20
+833 verbose lock babel-runtime@^5.8.20 C:\Users\nmckenzie\AppData\Roaming\npm-cache\d2d99cde-babel-runtime-5-8-20.lock
+834 verbose cache add [ 'ws@^1.0.1', null ]
+835 verbose cache add name=undefined spec="ws@^1.0.1" args=["ws@^1.0.1",null]
+836 verbose parsed url { protocol: null,
+836 verbose parsed url   slashes: null,
+836 verbose parsed url   auth: null,
+836 verbose parsed url   host: null,
+836 verbose parsed url   port: null,
+836 verbose parsed url   hostname: null,
+836 verbose parsed url   hash: null,
+836 verbose parsed url   search: null,
+836 verbose parsed url   query: null,
+836 verbose parsed url   pathname: 'ws@^1.0.1',
+836 verbose parsed url   path: 'ws@^1.0.1',
+836 verbose parsed url   href: 'ws@^1.0.1' }
+837 verbose cache add name="ws" spec="^1.0.1" args=["ws","^1.0.1"]
+838 verbose parsed url { protocol: null,
+838 verbose parsed url   slashes: null,
+838 verbose parsed url   auth: null,
+838 verbose parsed url   host: null,
+838 verbose parsed url   port: null,
+838 verbose parsed url   hostname: null,
+838 verbose parsed url   hash: null,
+838 verbose parsed url   search: null,
+838 verbose parsed url   query: null,
+838 verbose parsed url   pathname: '^1.0.1',
+838 verbose parsed url   path: '^1.0.1',
+838 verbose parsed url   href: '^1.0.1' }
+839 verbose addNamed [ 'ws', '^1.0.1' ]
+840 verbose addNamed [ null, null ]
+841 silly lockFile 1fe1a01c-ws-1-0-1 ws@^1.0.1
+842 verbose lock ws@^1.0.1 C:\Users\nmckenzie\AppData\Roaming\npm-cache\1fe1a01c-ws-1-0-1.lock
+843 verbose cache add [ 'xmlhttprequest@^1.7.0', null ]
+844 verbose cache add name=undefined spec="xmlhttprequest@^1.7.0" args=["xmlhttprequest@^1.7.0",null]
+845 verbose parsed url { protocol: null,
+845 verbose parsed url   slashes: null,
+845 verbose parsed url   auth: null,
+845 verbose parsed url   host: null,
+845 verbose parsed url   port: null,
+845 verbose parsed url   hostname: null,
+845 verbose parsed url   hash: null,
+845 verbose parsed url   search: null,
+845 verbose parsed url   query: null,
+845 verbose parsed url   pathname: 'xmlhttprequest@^1.7.0',
+845 verbose parsed url   path: 'xmlhttprequest@^1.7.0',
+845 verbose parsed url   href: 'xmlhttprequest@^1.7.0' }
+846 verbose cache add name="xmlhttprequest" spec="^1.7.0" args=["xmlhttprequest","^1.7.0"]
+847 verbose parsed url { protocol: null,
+847 verbose parsed url   slashes: null,
+847 verbose parsed url   auth: null,
+847 verbose parsed url   host: null,
+847 verbose parsed url   port: null,
+847 verbose parsed url   hostname: null,
+847 verbose parsed url   hash: null,
+847 verbose parsed url   search: null,
+847 verbose parsed url   query: null,
+847 verbose parsed url   pathname: '^1.7.0',
+847 verbose parsed url   path: '^1.7.0',
+847 verbose parsed url   href: '^1.7.0' }
+848 verbose addNamed [ 'xmlhttprequest', '^1.7.0' ]
+849 verbose addNamed [ null, null ]
+850 silly lockFile 06ea4cdf-xmlhttprequest-1-7-0 xmlhttprequest@^1.7.0
+851 verbose lock xmlhttprequest@^1.7.0 C:\Users\nmckenzie\AppData\Roaming\npm-cache\06ea4cdf-xmlhttprequest-1-7-0.lock
+852 info addNameTag [ 'babel-runtime', '^5.8.20' ]
+853 info addNameTag [ 'ws', '^1.0.1' ]
+854 verbose url raw ws
+855 verbose url resolving [ 'https://registry.npmjs.org/', './ws' ]
+856 verbose url resolved https://registry.npmjs.org/ws
+857 info trying registry request attempt 1 at 09:52:28
+858 http GET https://registry.npmjs.org/ws
+859 verbose url raw babel-runtime
+860 verbose url resolving [ 'https://registry.npmjs.org/', './babel-runtime' ]
+861 verbose url resolved https://registry.npmjs.org/babel-runtime
+862 info trying registry request attempt 1 at 09:52:28
+863 http GET https://registry.npmjs.org/babel-runtime
+864 info addNameTag [ 'xmlhttprequest', '^1.7.0' ]
+865 verbose url raw xmlhttprequest
+866 verbose url resolving [ 'https://registry.npmjs.org/', './xmlhttprequest' ]
+867 verbose url resolved https://registry.npmjs.org/xmlhttprequest
+868 info trying registry request attempt 1 at 09:52:28
+869 http GET https://registry.npmjs.org/xmlhttprequest
+870 http 200 https://registry.npmjs.org/xmlhttprequest
+871 silly registry.get cb [ 200,
+871 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+871 silly registry.get     etag: '"6694FR45GTPIXY0I69BLEIF0M"',
+871 silly registry.get     'content-type': 'application/json',
+871 silly registry.get     'cache-control': 'max-age=300',
+871 silly registry.get     'content-length': '12408',
+871 silly registry.get     'accept-ranges': 'bytes',
+871 silly registry.get     date: 'Wed, 08 Jun 2016 16:52:29 GMT',
+871 silly registry.get     via: '1.1 varnish',
+871 silly registry.get     age: '0',
+871 silly registry.get     connection: 'keep-alive',
+871 silly registry.get     'x-served-by': 'cache-lax1432-LAX',
+871 silly registry.get     'x-cache': 'MISS',
+871 silly registry.get     'x-cache-hits': '0',
+871 silly registry.get     'x-timer': 'S1465404749.630005,VS0,VE96',
+871 silly registry.get     vary: 'Accept-Encoding' } ]
+872 silly lockFile 06ea4cdf-xmlhttprequest-1-7-0 xmlhttprequest@^1.7.0
+873 silly lockFile 06ea4cdf-xmlhttprequest-1-7-0 xmlhttprequest@^1.7.0
+874 verbose about to build C:\Users\nmckenzie\AppData\Roaming\npm\node_modules\parse
+875 info C:\Users\nmckenzie\AppData\Roaming\npm\node_modules\parse unbuild
+876 verbose from cache C:\Users\nmckenzie\AppData\Roaming\npm\node_modules\parse\package.json
+877 info preuninstall parse@1.8.5
+878 info uninstall parse@1.8.5
+879 verbose true,C:\Users\nmckenzie\AppData\Roaming\npm\node_modules,C:\Users\nmckenzie\AppData\Roaming\npm\node_modules unbuild parse@1.8.5
+880 info postuninstall parse@1.8.5
+881 http 200 https://registry.npmjs.org/babel-runtime
+882 silly registry.get cb [ 200,
+882 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+882 silly registry.get     etag: '"8O4SZ6CJBANCHOY7ID95SH8FZ"',
+882 silly registry.get     'content-type': 'application/json',
+882 silly registry.get     'cache-control': 'max-age=300',
+882 silly registry.get     'content-length': '143690',
+882 silly registry.get     'accept-ranges': 'bytes',
+882 silly registry.get     date: 'Wed, 08 Jun 2016 16:52:29 GMT',
+882 silly registry.get     via: '1.1 varnish',
+882 silly registry.get     age: '0',
+882 silly registry.get     connection: 'keep-alive',
+882 silly registry.get     'x-served-by': 'cache-lax1421-LAX',
+882 silly registry.get     'x-cache': 'MISS',
+882 silly registry.get     'x-cache-hits': '0',
+882 silly registry.get     'x-timer': 'S1465404749.623863,VS0,VE165',
+882 silly registry.get     vary: 'Accept-Encoding' } ]
+883 error Error: No compatible version found: xmlhttprequest@'^1.7.0'
+883 error Valid install targets:
+883 error ["1.0.0","1.2.0","1.2.1","1.2.2","1.3.0","1.4.0","1.4.2","1.5.0","1.6.0","1.7.0","1.8.0"]
+883 error     at installTargetsError (c:\Program Files\nodejs\node_modules\npm\lib\cache.js:682:10)
+883 error     at c:\Program Files\nodejs\node_modules\npm\lib\cache.js:597:10
+883 error     at saved (c:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\get.js:138:7)
+883 error     at Object.oncomplete (fs.js:93:15)
+884 error If you need help, you may report this log at:
+884 error     <http://github.com/isaacs/npm/issues>
+884 error or email it to:
+884 error     <npm-@googlegroups.com>
+885 error System Windows_NT 6.1.7601
+886 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "parse"
+887 error cwd c:\git\s2git\nmmckenzie.github.io
+888 error node -v v0.10.0
+889 error npm -v 1.2.14
+890 verbose exit [ 1, true ]

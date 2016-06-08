@@ -161,6 +161,12 @@ color: blue;
 .marketing a {
 	font-size: 90%;
 }
+
+
+input[type="number"]{ /* could also use .wklycost  */
+	width: 3em;
+	max-width: 5em;
+}
 	
 /* Footer formatting */
 .footer {
