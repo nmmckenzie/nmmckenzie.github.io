@@ -1,5 +1,39 @@
 
+/* borrowed from Eric Meyer resets */
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	font-size: 100%;
+	line-height: 1;
+	font: inherit;
+}
+ol, ul {
+	list-style: none;
+	margin: 0;
+    
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
+.clearfix {
+	content: " ";
+  overflow-y: hidden;
+  overflow-x: auto; /*contain the spillage */
+  zoom: 1; /*IE */
+}
 * {
 	-webkit-border-radius: 6px; 
 	-moz-border-radius: 6px;
@@ -8,93 +42,97 @@
 	/*  -webkit-box-sizing: border-box; /* padding and border of that element no longer increase its width */
      /*-moz-box-sizing: border-box;
           box-sizing: border-box; */
-	font-size: 1.05em;
+	font-size: 1.10em;
 }
 
-body {
-	font-size: 16px;
-}
+
 /* Nicola 
 -- ShayHowe.com, http://learnlayout.com/toc.html */
 .container {
 	position: relative; /* allow elements relative position  */
 	max-width: 100%;
-	
+	padding: 0; /* trying to get rid of 40 random pixels */
 }
-
+.container {
+    display: inline-block;
+}
+.container::after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+.container {
+    display: block;
+}
 .nav, .themiddle {
-	/* display: block; */
-	margin-left: 15%;
-	margin-right: 15%;
-	font-size: 75%;
+
 	max-width: 80%;
 	margin-bottom: 1%;
 }
-
 .nav {
-		padding: 1% 1% 1% 1%;
+	/*	padding: 1% 1% 1% 1%; */
 	background-color: none; 
 	list-style-type: none; /* remove bullets */
-	/* display: block; */
 
+}
+.nav ul {
+	background-color: mauve;
 }
 .nav li {
 	display: inline;
-	padding: 2% 2%; /* spread the menu items out a little */
-	margin: 2px;
-	font-size: 80%;
+	/* padding: 2% 2%; /* spread the menu items out a little */
+	/* margin: 2px; */
+	padding-left: 1em; /* better spacing than 3% */
+
+	font-size: 90%;
+	background-color: #f9f9fd; /* make the background ghostwhite */
+
 }
 .nav a
 { text-decoration: none; 
 font-family: Vivalvi, Tahoma, Geneva, sans-serif;
-font-size: 100%;
-font-weight: none;
+/* font-size: 110%; */
+/* font-weight: none; */
 color: blue;
-	padding: 2% 2%; /* spread the menu items out a little */
+
+/*	padding: 2% 2%; /* spread the menu items out a little */
 }
-
-.nav  li { /* background for nav list items */
-	background-color: #f9f9fd; /* make the background ghostwhite */
-	padding: 0 0 0 0; /* spread the menu items out a little */
-}
-
-nav  li:first-child{ /* background for nav list items */
-	font-style: oblique; /* make the background ghostwhite */
-	padding: 0 0 0 0 /* spread the menu items out a little */
-
-}
-
 .nav a:hover { /* why is this larger than background for li? */
 /* 	color: green; no clown makeup here */
-	background-color: lightgrey;
-	font-weight: bold;
+	background-color: #21832c;
+	color: white;
+	border: 1px;
 }
-
 .btn {
-  background: lightgrey;
-  color: mediumblue;
+  background: #21832c;
+  color: white;
   display: inline-block;
-  /* box-shadow: inset 0 1px 0 rgba(255,255,255,0.2); */
   font-family: Arial, sans-serif;
-  line-height: 1.5em;
-  padding: 0 .5em;
+  line-height: 1em;
+  /* padding: 0 .2em; */
+  padding-right: 0.5em;
+  padding-left: 0.5em;
   text-decoration: none;
+    transition-property: background;
+    transition-duration:  1s;
+    transition-timing-function: linear, ease in;
 }
 .btn:hover {
-	color: blue;
-	font-weight: bold;
-	background-color: lightgrey;
- /* box-shadow: inset 0 1px 1px rgba(255,255,255,0.2),
-  inset 0 1.5em 1em rgba(255,255,255,0.3); */
+	/* color: blue;
+	font-weight: bold;*/
+	background-color: maroon; /* #f9f9fd;*/
 }
-
 
 /* Body formatting */
 .themiddle {
-	padding: 1% 2% 2% 1%;
-	background-color: #c5dfbf ; /*#e6e6f0; */
+	background-color: #c5dfbf ;
+	 margin-left: 3em; /* center this block */
+	margin-right: 3em; 
+	/* padding: 0 1% 1% 1%; /*separate elements a bit */
 }
-
 .themiddle h1 {
 	display: inline-block; 
 	 font-size: 90%; 
@@ -102,61 +140,44 @@ nav  li:first-child{ /* background for nav list items */
 	max-width: 90%;
 	font-family: Verdana, sans-serif;
 }
-
+.lead {
+	font-size: .9em;
+}
 .marketing {
-	padding: 1% 2% 2% 1%;
 	margin-top: 0;
-	margin-left: 2%;
 	font-size: 90%;
-	max-width: 90%;
+	width: 90%;
 	background-color: #f9f9fd;
-}
-/* .themiddle h2 {
-	display: inline-block; 
-	 font-size: 100%; 
-	 font-weight: bold;
-	max-width: 90%;
-	font-family: Verdana, sans-serif;
-}
-*/
+	padding-right: 1em; /* center marketing ucer themiddle */
+	 margin-left: 1em;
+} 
 .marketing h2 a {
 	font-size: 100%;
+	text-align: center;
 }
 .marketing h2 a:visited {
-	text-decoration:none;
-	color: blue;
-	font-weight: bold;
-	font-size: 100%;
+	color: lightblue;
 }
 .marketing a {
 	font-size: 90%;
 }
 	
 /* Footer formatting */
-
 .footer {
 position: relative;
 }	
-
 footer p { 
-font-size: 60%;
+font-size: 50%;
 }
-
+/* accidentally fixed the llama to the bottom right of the screen. Keeper! */
 #myllama {
-	width: 20px; /* % causes llama dims to change with screen resize */
-    height: 36px;/* fix aspect ratio and don't interfere with text */
+	width: 1.5em; /* 20px % causes llama dims to change with screen resize */
+    height: 2.7em;/* fix aspect ratio and don't interfere with text */
     background: url(../images/llama.png) no-repeat;
 	 bottom: 10px;   
     right: -2px; /* end up on some random place on bottom without this */
    background-size: 100%  100%;/* doesn't show up without this */
- /*   font-size: 50%;*/
    position: fixed;
-   clear: both;
-   max-width: 100%;
-/* 	background: url("../images/nerd.png") no-repeat;
-     width: 50%;
-    height: 50%;
-  
-    position: absolute;
-	*/
+  /*  clear: both; */
+   /*max-width: 100%; */
 }
