@@ -48,9 +48,12 @@
         <h2><a href="Save.html">Subheading</a></h2>
           <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
 
-<form action="//formspree.io/nicmaps@gmail.com.com">
-    <input type="text" name="name">
-    <input type="email" name="_replyto">
+<form action="//formspree.io/nicmaps@gmail.com.com" method="POST">
+    <input type="text" name="name" placeholder="Your name">
+    <input type="email" name="_replyto" placeholder="Your email">
+	 <input type="hidden" name="_subject" value="Llama News!" />
+	     <textarea name="message" placeholder="Your message"></textarea>
+    <input type="text" name="_gotcha" style="display:none" />
     <input type="submit" value="Send">
 </form>
           <h2><a href="Budget.html">Subheading</a></h2>
