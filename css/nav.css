@@ -167,19 +167,15 @@ details {
 	margin-bottom: 3em;
 	margin-top: 3em;
 	max-width: 80%;
-	/* padding-left: 3em;
-	padding-right: 3em; */
 	background-color: #c5dfbf;
 	font-family: Vivalvi, Tahoma, Geneva, sans-serif;
 	font-size: 1em;
 	margin-left: 3.25em;
-/* 	margin-right: 3em; */
 }
 
 details::before{
 	 display: block;
 	 text-decoration: underline;
-	/*margin-bottom: 3em; */
 }
 details>summary:first-child {
 	text-decoration: underline;
@@ -200,7 +196,7 @@ tbody th{
 	background-color: rgba(149, 191, 141, 1); /* rgba(106, 146, 84, 1);*/
 }
 .multiplication {
-	font-size: 0.75rem;
+	font-size: 0.55rem;
 	overflow-y: hidden;
 	overflow-x: auto;
 	table-layout:fixed;
