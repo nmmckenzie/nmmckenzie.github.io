@@ -206,7 +206,7 @@ tbody {
 	overflow-y: hidden;
 	overflow-x: auto;
 }
-.multiplication {
+.mathclass {
 	font-size: 0.55rem;
 	overflow-y: hidden;
 	overflow-x: auto;
@@ -214,13 +214,36 @@ tbody {
 	height: 99%;
 	width: 99%;
 }
-#timestable{
+#mathtable{
 	display: table; /*table works well as a value also */
 	max-width: 100%;
 	overflow-y: hidden;
-	overflow-x: scroll;
+	overflow-x: scroll;	
+}
+.foil p{
+	text-align: left;
+}
+.hi {
+	background-color: yellow;
+}
+.mytab {
+	padding-left: 1rem;
+}
+#quadformula {
+	 width: 6em;  /*20px % causes llama dims to change with screen resize */
+     height: 4em; /*fix aspect ratio and don't interfere with text */
+    background: url(../images/quadratic_formula.png) no-repeat;
+/*	width: 20px; /* % causes llama dims to change with screen resize */
+/*    height: 36px;/* fix aspect ratio and don't interfere with text */
+	bottom: 10px;   
+    right: -2px; /* end up on some random place on bottom without this */
+   background-size: 100%  100%;/* doesn't show up without this */
+   position: relative; 
+   display:  inline-block;
+   border: 1px solid #333
 
 }
+
 canvas {
   margin: auto;
   display: block;
@@ -235,16 +258,16 @@ footer p {
 font-size: 50%;
 }
 /* accidentally fixed the llama to the bottom right of the screen. Keeper! */
-#myllama {
+#myllama0 {
 	width: 1.5em; /* 20px % causes llama dims to change with screen resize */
     height: 2.7em;/* fix aspect ratio and don't interfere with text */
-    background: url(../images/llama.png) no-repeat;
+    background: url(../images/spritesheet.png) no-repeat;
 	 bottom: 10px;   
     right: -2px; /* end up on some random place on bottom without this */
-   background-size: 100%  100%;/* doesn't show up without this */
+   background-size: 800%  450%;/* doesn't show up without this */
    position: fixed;
-  /*  clear: both; */
-   /*max-width: 100%; */
+   background-position: -4px -22px;
+   zoom:1.0;
 }
 
 #myllama1 {
@@ -266,7 +289,7 @@ font-size: 50%;
     right: -2px; /* end up on some random place on bottom without this */
    background-size: 800%  450%;/* doesn't show up without this */
    position: fixed;
-   background-position: -40px -22px;
+   background-position: -76px -22px;
    zoom:1.0;
 }
 #myllama3 {
