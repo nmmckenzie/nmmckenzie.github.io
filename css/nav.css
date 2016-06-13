@@ -8,13 +8,16 @@ footer, header, hgroup, menu, nav, section {
 body {
 	font-size: 100%;
 	line-height: 1;
-	font: inherit;
+	/* font: inherit; */
+	
 }
 ol, ul {
 	list-style: none;
 	margin-left: 3em;
 	margin-right: 3em;
-	padding: 0;
+	padding-left: 0;
+	padding-right: 0;
+	list-style-position:outside;
     
 }
 blockquote, q {
@@ -76,23 +79,21 @@ table {
 	list-style-type: none; /* remove bullets */
 }
 .nav ul {
-	background-color: mauve;
+
 	margin-left: 3em;
 	margin-right: 3em;
+	/* height: .9em; */
 }
 .nav li {
 	display: inline;
-	/* padding: 2% 2%; /* spread the menu items out a little */
-	/* margin: 2px; */
 	padding-left: 1em; /* better spacing than 3% */
-
-	font-size: 90%;
-	background-color: #f9f9fd; /* make the background ghostwhite */
-
+	padding-right: 1em;
+	/* background-color: yellow; /*#f9f9fd make the background ghostwhite */
 }
 .nav a
 { text-decoration: none; 
 font-family: Vivalvi, Tahoma, Geneva, sans-serif;
+	font-size: 90%;
 /* font-size: 110%; */
 /* font-weight: none; */
 color: blue;
@@ -157,7 +158,7 @@ color: blue;
 	text-align: center;
 }
 .marketing h2 a:visited {
-	color: lightblue;
+	color: darkgreen;
 }
 .marketing a {
 	font-size: 90%;
@@ -184,12 +185,16 @@ details>summary:first-child {
 	text-decoration: underline;
 	cursor: pointer;
 }
-
-input[type="number"]{ /* could also use .wklycost  */
+canvas {
+  margin: auto;
+  display: block;
+}
+/*
+input[type="number"]{ /* could also use .wklycost   
 	width: 3em;
 	max-width: 5em;
 }
-	
+	*/
 /* Footer formatting */
 .footer {
 position: relative;
@@ -209,3 +214,27 @@ font-size: 50%;
   /*  clear: both; */
    /*max-width: 100%; */
 }
+
+#myllama1 {
+	width: 1.5em; /* 20px % causes llama dims to change with screen resize */
+    height: 2.7em;/* fix aspect ratio and don't interfere with text */
+    background: url(../images/spritesheet.png) no-repeat;
+	 bottom: 10px;   
+    right: -2px; /* end up on some random place on bottom without this */
+   background-size: 800%  450%;/* doesn't show up without this */
+   position: fixed;
+   background-position: -267px -120px;
+   zoom:1.0;
+}
+#myllama2 {
+	width: 1.5em; /* 20px % causes llama dims to change with screen resize */
+    height: 2.7em;/* fix aspect ratio and don't interfere with text */
+    background: url(../images/spritesheet.png) no-repeat;
+	 bottom: 10px;   
+    right: -2px; /* end up on some random place on bottom without this */
+   background-size: 800%  450%;/* doesn't show up without this */
+   position: fixed;
+   background-position: -40px -22px;
+   zoom:1.0;
+}
+

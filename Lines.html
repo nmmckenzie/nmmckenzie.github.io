@@ -10,7 +10,7 @@
 	<link rel="shortcut icon" type="image/png" href="/favicon.png?">
 
 	
-	<title>Llama</title>
+	<title>Llama - Lines</title>
     <!-- Bootstrap -->
 	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <!-- <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">-->
@@ -25,42 +25,35 @@
 		  <ul class="nav">
             <li><a href="index.html">Home</a></li>
 			<li><a href="Lines.html">Lines</a></li>
-			<li><a href="Budget.html">Budget</a></li>
-			<li><a href="Invest.html">Invest</a></li>
+			<li><a href="Quadratics.html">Quadratics</a></li>
           </ul>
-		  <div class="sprite" >
-			<a  class="llama" href="#"> </a>
-			</div> 
         </nav>
     
       </div> <!-- header-->
 	  
 <section class="section">
 
-      <div class="themiddle">
-        <h1>Llama Knows Math</h1>
-        <p class="lead"> <a href="http://education.jhu.edu/PD/newhorizons/Journals/spring2010/why-summer-learning/" target="_blank">Research</a> shows that the average student loses over 2 months of Math knowledge each summer.</p>
-        <p> We've identified the three most important topics that students forget over the summer and the Llama lessons are designed to limit that "summer slide".</p>
-		<p>
-		<p> Stop Summer Learning Loss!</p>
-		<a class="btn" href="#" role="button">Learn More!</a></p>
-      </div>
-
-      <!-- details -->
-	  <!-- summary>Learn the Llama Secrets!</summary -->
 	  <div class="marketing">
-        <h2>Times Table</h2>
-          <p>Yes! From 1st to 12th grade, everyone can benefit from memorizing their multiplication tables.</p>
-		<table class="multiplication">
-		<tr>1</tr>
-		<tr>2</tr>
-		</table>
-          <h2><a href="Lines.html">Lines</a></h2>
-          <p>Linear relationships are great for describing constant rates of change. For 
-		example, a toddler given a pile of legos intuitively understands that the more legos they add, the taller the tower grows, while the pile shrinks.</p>
+        <h2><a href=""> Linear Relationships</a></h2>
+        <p>Many relationships are approximately linear. If we graph the effect that the independent variable 
+		(the one I know/have/start with) has on the dependent variable (the one that changes as a result of 
+		changes in the independent variable), we put the independent variable on the x-axis and the dependent 
+		variable on the y-axis. 
 
-          <h2><a href="Quadratics.html">Quadratics</a></h2>
-          <p>Have you ever hit, kicked or thrown a ball? If so, you’ve launched a projectile! Its path is described by a parabola (a member of the cool family of conic sections). The path of a projectile is graphed using a quadratic function.</p>
+<h3>Form and Function</h3>
+Lines are most commonly represented in the form y=mx+b
+	<p>x: independent variable</p>
+	<p>y: dependent variable</p>
+	<p>m: slope</p>
+	<p>b: intercept</p>
+<h3>Slope and Intercept</h3>
+The slope (m)  is the slant or rate of change. It represents how much y will change if x is increase by 1.
+If m>0, the line goes up and to the right. If m<0, the line goes down and to the left.
+The intercept (b), is how much of y we have when x=0. It’s actually where the line cuts the y-axis, and is given by the point (0,b).
+</p>
+<canvas id="myCanvas" width="500" height="500">
+  <p>This is fallback content for users of assistive technologies or of browsers that don't have full support for the Canvas API.</p>
+</canvas>
      </div>
 	<!-- /details -->
      
@@ -74,9 +67,18 @@
 	</details>
 </aside>
 
+      <div class="themiddle">
+        <h1>Llama Knows Math</h1>
+        <p class="lead"> <a href="http://education.jhu.edu/PD/newhorizons/Journals/spring2010/why-summer-learning/" target="_blank">Research</a> shows that the average student loses over 2 months of Math knowledge each summer.</p>
+		<p> We've identified the three most important topics that students forget over the summer and the Llama lessons are designed to limit that "summer slide".</p>
+        <p>
+		<p> Stop Summer Learning Loss!</p>
+		<a class="btn" href="#" role="button">Learn More!</a></p>
+      </div>
+
 
       <footer class="footer">
-		  <div ><a id="myllama1" href="Contact.html" alt="cute llama"></a>
+		  <div ><a id="myllama3" href="Contact.html" alt="cute llama"></a>
           </div> 
  
         <p><small>&copy; 2016 Nicola.  Llamas courtesy of <a href="http://fav.me/d2wnj6g" target="_blank">The Bob Guy</a></small></p>
@@ -89,6 +91,7 @@
 	<script src="bower_components/better-dom/dist/better-dom.js"></script>
 <script src="bower_components/better-details-polyfill/dist/better-details-polyfill.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/index.js"></script>
 	<!-- <script src="C:\git\s2git\nmmckenzie.github.io\bower_components\jquery\src\jquery.js"></script> -->
   </body>
 </html>
