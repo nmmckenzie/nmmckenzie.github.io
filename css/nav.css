@@ -157,9 +157,9 @@ color: blue;
 	font-size: 100%;
 	text-align: center;
 }
-.marketing h2 a:visited {
+/* .marketing h2 a:visited {
 	color: darkgreen;
-}
+} */
 .marketing a {
 	font-size: 90%;
 }
@@ -189,6 +189,15 @@ td, th {
   border: 1px solid #999;
   padding: 0.1rem; /* how is 0.5em different from .5rem ? */
   /* overflow: hidden; */
+  	-webkit-border-radius: 0px; 
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+thead {
+	background-color: rgba(160, 211, 156, 1);
+}
+tbody th{
+	background-color: rgba(149, 191, 141, 1); /* rgba(106, 146, 84, 1);*/
 }
 .multiplication {
 	font-size: 0.75rem;
