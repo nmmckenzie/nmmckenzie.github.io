@@ -133,8 +133,9 @@ color: blue;
 	 margin-left: 3em; /* center this block */
 	margin-right: 3em; 
 	max-width: 80%;
-	/* display: block;
-	/* padding: 0 1% 1% 1%; /*separate elements a bit */
+	overflow-y: hidden;
+	overflow-x: scroll;
+
 }
 .themiddle h1 {
 	display: inline-block; 
@@ -150,9 +151,11 @@ color: blue;
 	/* font-size: .9em; */
 	max-width: 80%;
 	background-color: #f9f9fd;
-	/* padding-right: 1em; /* center marketing ucer themiddle */
-	 margin-left: 3em;
-	 margin-right: 3em;
+	overflow-y: hidden;
+	overflow-x: scroll;
+	margin-left: 3em;
+	margin-right: 3em;
+	word-wrap: break-word; 
 } 
 .marketing h2 a {
 	font-size: 100%;
@@ -182,19 +185,26 @@ details>summary:first-child {
 	text-decoration: underline;
 	cursor: pointer;
 }
-td, th {
-  border: 1px solid #999;
+td, th , tr{
+  border: .1rem solid #999;
   padding: 0.1rem; /* how is 0.5em different from .5rem ? */
   /* overflow: hidden; */
   	-webkit-border-radius: 0px; 
 	-moz-border-radius: 0px;
 	border-radius: 0px;
+	 font-size: 0.75rem
+
 }
 thead {
 	background-color: rgba(160, 211, 156, 1);
 }
 tbody th{
 	background-color: rgba(149, 191, 141, 1); /* rgba(106, 146, 84, 1);*/
+
+}
+tbody {
+	overflow-y: hidden;
+	overflow-x: auto;
 }
 .multiplication {
 	font-size: 0.55rem;
@@ -205,10 +215,11 @@ tbody th{
 	width: 99%;
 }
 #timestable{
-	display: inline-block; /*table works well as a value also */
+	display: table; /*table works well as a value also */
 	max-width: 100%;
 	overflow-y: hidden;
 	overflow-x: scroll;
+
 }
 canvas {
   margin: auto;
