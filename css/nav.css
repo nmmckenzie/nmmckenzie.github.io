@@ -224,7 +224,7 @@ tbody {
 	text-align: left;
 }
 .hi {
-	background-color: yellow;
+	background-color: #9f8;
 }
 .mytab {
 	padding-left: 1rem;
@@ -315,6 +315,18 @@ font-size: 50%;
    background-size: 800%  450%;/* doesn't show up without this */
    position: fixed;
    background-position: -40px -22px;
+   zoom:1.0;
+}
+
+#myllama4 {
+	width: 1.5em; /* 20px % causes llama dims to change with screen resize */
+    height: 2.7em;/* fix aspect ratio and don't interfere with text */
+    background: url(../images/spritesheet.png) no-repeat;
+	 bottom: 10px;   
+    right: -2px; /* end up on some random place on bottom without this */
+   background-size: 800%  450%;/* doesn't show up without this */
+   position: fixed;
+   background-position: -40px -115px;
    zoom:1.0;
 }
 
