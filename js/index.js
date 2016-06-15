@@ -2,7 +2,7 @@
     var ctx = canvas.getContext('2d');
 var scaleFactor = 25;
 
-
+ 
 //move origin to center, make y ascend up
 //window: -5 to 5
 //ctx.translate(canvas.width / 2, canvas.height / 2);
@@ -80,10 +80,7 @@ function resetGraph() {
 
 }
 
-
-	
-function drawLine(slope,intercept,color) {
- 
+function drawLine(slope,intercept,color) { 
   //document.write('slope');
   var m = parseInt(slope);
   var b = parseInt(intercept);
@@ -94,10 +91,28 @@ function drawLine(slope,intercept,color) {
   ctx.lineTo(XMIN,((m*XMIN)+b));
   ctx.lineTo(XMAX,((m*XMAX)+b));
   ctx.stroke();
+  ctx.closePath();
 }
 
+function drawCurve(f,color) {
+ 
+  //document.write('slope');
+  var a = parseInt(aval);
+  var b = parseInt(bval);
+  var c = parseInt(cval);
+  ctx.strokeStyle = color;
+  	ctx.lineWidth = 2 / scaleFactor;
+  ctx.beginPath();
+ // ctx.moveTo(0,c);
+ctx.moveTo(XMIN, f(XMIN));
+ for(var x = XMIN; x <= XMAX; x += X_STEP) {
+ctx.lineTo(x, f(x));
+}
+ // ctx.quadraticCurveTo(XMAX,((a*XMIN^2)+(b*x)+c) );
+  ctx.stroke();
+  ctx.closePath();
+}
 
-	
 
 $(document).ready(function() {
 	$('#drawLine').click(function() {
@@ -109,9 +124,21 @@ $(document).ready(function() {
 		//alert($('slp'));
 		resetGraph();
 		
-	drawLine(slp,icept,pretty);
-	
-	
+	drawLine(slp,icept,pretty);	
+	});
+		$('#drawCurve').click(function() {
+		var av = +document.getElementById("aval").value;
+		var bv = +document.getElementById("bval").value;
+		var cv = +document.getElementById("cval").value;
+		var pretty = document.getElementById("linecolor").value;
+	//	var eqn = $('<p> y = '+slp+'x + '+icept+'</p>');
+		//$('.equation').after(eqn);
+		//alert($('slp'));
+		resetGraph();
+		var f = function f(x) {
+return 1/20 * (av*Math.pow(x,2) + bv*x+cv);
+};
+	drawCurve(f,pretty);	
 	});
 		$('#clearGraph').click(function() {
 		resetGraph();
