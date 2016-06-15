@@ -421,16 +421,20 @@ footer p {
   padding-top: 2vw;
   max-width: 80%;
 }
-	details>summary:first-child, .nav a{
+	details>summary:first-child {
   font-size: 2vw;
 }
-.mathclass, header, button, td, th, tr,body,
+.mathclass, section, .marketing, .themiddle, header, button, td, th, tr,body,
 details,div, p{
 	font-size: 80%;
 	font-size: 2vw;
 	font-size: 1.1em;
 }
-
+.nav a{
+	font-size: 80%;
+	font-size: 1em;
+  font-size: 2vw;
+}
 
 footer {
 	font-size: 40%;
