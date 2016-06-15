@@ -1,112 +1,151 @@
-
 /* borrowed from Eric Meyer resets */
+
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, div,p,h1,h2,h3
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article,
+aside,
+details,
+figcaption,
+figure,
+div,
+p,
+h1,
+h2,
+h3 footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
+
 body {
-	font-size: 100%; /*/* 1.10em100%;*/
-	line-height: 1;
-	/* font: inherit; */
-	
+  font-size: 100%;
+  /*/* 1.10em100%;*/
+  line-height: 1;
+  /* font: inherit; */
 }
-ol, ul {
-	list-style: none;
-	margin-left: 3em;
-	margin-right: 3em;
-	padding-left: 0;
-	padding-right: 0;
-	list-style-position:outside;
-    
+
+ol,
+ul {
+  list-style: none;
+  margin-left: 3em;
+  margin-right: 3em;
+  padding-left: 0;
+  padding-right: 0;
+  list-style-position: outside;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 .clearfix {
-	content: " ";
+  content: " ";
   overflow-y: hidden;
-  overflow-x: auto; /*contain the spillage */
-  zoom: 1; /*IE */
+  overflow-x: auto;
+  /*contain the spillage */
+  zoom: 1;
+  /*IE */
 }
-* {
-	-webkit-border-radius: 6px; 
-	-moz-border-radius: 6px;
-	border-radius: 6px;
-	text-align: center;
-	/*  -webkit-box-sizing: border-box; /* padding and border of that element no longer increase its width */
-     /*-moz-box-sizing: border-box;
-          box-sizing: border-box; */
-	font-size:  1.10em;/* 1vw;*/
 
+* {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  text-align: center;
+  /*  -webkit-box-sizing: border-box; /* padding and border of that element no longer increase its width */
+  /*-moz-box-sizing: border-box;
+          box-sizing: border-box; */
+  font-size: 1.10em;
+  /* 1vw;*/
 }
 
 
 /* Nicola 
 -- ShayHowe.com, http://learnlayout.com/toc.html */
+
 .container {
-	position: relative; /* allow elements relative position  */
-	max-width: 100%;
-	padding: 0; /* trying to get rid of 40 random pixels */
+  position: relative;
+  /* allow elements relative position  */
+  max-width: 100%;
+  padding: 0;
+  /* trying to get rid of 40 random pixels */
 }
+
 .container {
-    display: inline-block;
+  display: inline-block;
 }
+
 .container::after {
-    content: "";
-    display: block;
-    height: 0;
-    clear: both;
-    overflow: hidden;
-    visibility: hidden;
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
 }
+
 .container {
-    display: block;
+  display: block;
 }
+
 .nav {
-	max-width: 80%;
-	margin-bottom: 1%;
-	background-color: none; 
-	list-style-type: none; /* remove bullets */
+  max-width: 80%;
+  margin-bottom: 1%;
+  background-color: none;
+  list-style-type: none;
+  /* remove bullets */
 }
+
 .nav ul {
-
-	margin-left: 3em;
-	margin-right: 3em;
-	/* height: .9em; */
+  margin-left: 3em;
+  margin-right: 3em;
+  /* height: .9em; */
 }
+
 .nav li {
-	display: inline;
-	padding-left: 1em; /* better spacing than 3% */
-	padding-right: 1em;
-	/* background-color: yellow; /*#f9f9fd make the background ghostwhite */
+  display: inline;
+  padding-left: 1em;
+  /* better spacing than 3% */
+  padding-right: 1em;
+  /* background-color: yellow; /*#f9f9fd make the background ghostwhite */
 }
-.nav a
-{ text-decoration: none; 
-font-family: Vivalvi, Tahoma, Geneva, sans-serif;
-	font-size: 90%;
-/* font-size: 110%; */
-/* font-weight: none; */
-color: blue;
 
-/*	padding: 2% 2%; /* spread the menu items out a little */
+.nav a {
+  text-decoration: none;
+  font-family: Vivalvi, Tahoma, Geneva, sans-serif;
+  font-size: 90%;
+  /* font-size: 110%; */
+  /* font-weight: none; */
+  color: blue;
+  /*	padding: 2% 2%; /* spread the menu items out a little */
 }
-.nav a:hover { /* why is this larger than background for li? */
-/* 	color: green; no clown makeup here */
-	background-color: #21832c;
-	color: white;
-	border: 1px;
+
+.nav a:hover {
+  /* why is this larger than background for li? */
+  /* 	color: green; no clown makeup here */
+  background-color: #21832c;
+  color: white;
+  border: 1px;
 }
+
 .btn {
   background: #21832c;
   color: white;
@@ -117,162 +156,199 @@ color: blue;
   padding-right: 0.5em;
   padding-left: 0.5em;
   text-decoration: none;
-    transition-property: background;
-    transition-duration:  1s;
-    transition-timing-function: linear, ease in;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear, ease in;
 }
+
 .btn:hover {
-	/* color: blue;
+  /* color: blue;
 	font-weight: bold;*/
-	background-color: maroon; /* #f9f9fd;*/
+  background-color: maroon;
+  /* #f9f9fd;*/
 }
+
 
 /* Body formatting */
-.themiddle {
-	background-color: #c5dfbf ;
-	 margin-left: 3em; /* center this block */
-	margin-right: 3em; 
-	max-width: 80%;
-	overflow-y: hidden;
-	overflow-x: auto;
 
+.themiddle {
+  background-color: #c5dfbf;
+  margin-left: 3em;
+  /* center this block */
+  margin-right: 3em;
+  max-width: 80%;
+  overflow-y: hidden;
+  overflow-x: auto;
 }
+
 .themiddle h1 {
-	display: inline-block; 
-	 font-size: 90%; 
-	 font-weight: bold;
-	max-width: 90%;
-	font-family: Verdana, sans-serif;
+  display: inline-block;
+  font-size: 90%;
+  font-weight: bold;
+  max-width: 90%;
+  font-family: Verdana, sans-serif;
 }
+
 .lead {
-	font-size: .9em;
+  font-size: .9em;
 }
+
 .marketing {
-	/* font-size: .9em; */
-	max-width: 80%;
-	background-color: #f9f9fd;
-	overflow-y: hidden;
-	overflow-x: auto;
-	margin-left: 3em;
-	margin-right: 3em;
-	word-wrap: break-word; 
-} 
-.marketing h2 a {
-	font-size: 100%;
-	text-align: center;
+  /* font-size: .9em; */
+  max-width: 80%;
+  background-color: #f9f9fd;
+  overflow-y: hidden;
+  overflow-x: auto;
+  margin-left: 3em;
+  margin-right: 3em;
+  word-wrap: break-word;
 }
+
+.marketing h2 a {
+  font-size: 100%;
+  text-align: center;
+}
+
+
 /* .marketing h2 a:visited {
 	color: darkgreen;
 } */
+
 .marketing a {
-	font-size: 90%;
+  font-size: 90%;
 }
+
 details {
-	margin-bottom: 3em;
-	margin-top: 3em;
-	max-width: 80%;
-	background-color: #c5dfbf;
-	font-family: Vivalvi, Tahoma, Geneva, sans-serif;
-	font-size: 1em;
-	margin-left: 3.25em;
+  margin-bottom: 3em;
+  margin-top: 3em;
+  max-width: 80%;
+  background-color: #c5dfbf;
+  font-family: Vivalvi, Tahoma, Geneva, sans-serif;
+  font-size: 1em;
+  margin-left: 3.25em;
 }
 
-details::before{
-	 display: block;
-	 text-decoration: underline;
+details::before {
+  display: block;
+  text-decoration: underline;
 }
+
 details>summary:first-child {
-	text-decoration: underline;
-	cursor: pointer;
+  text-decoration: underline;
+  cursor: pointer;
 }
-td, th , tr{
+
+td,
+th,
+tr {
   border: .1rem solid #999;
-  padding: 0.1rem; /* how is 0.5em different from .5rem ? */
+  padding: 0.1rem;
+  /* how is 0.5em different from .5rem ? */
   /* overflow: hidden; */
-  	-webkit-border-radius: 0px; 
-	-moz-border-radius: 0px;
-	border-radius: 0px;
-	 font-size: 0.75rem
-
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  font-size: 0.75rem
 }
+
 thead {
-	background-color: rgba(160, 211, 156, 1);
+  background-color: rgba(160, 211, 156, 1);
 }
-tbody th{
-	background-color: rgba(149, 191, 141, 1); /* rgba(106, 146, 84, 1);*/
 
+tbody th {
+  background-color: rgba(149, 191, 141, 1);
+  /* rgba(106, 146, 84, 1);*/
 }
+
 tbody {
-	overflow-y: hidden;
-	overflow-x: auto;
+  overflow-y: hidden;
+  overflow-x: auto;
 }
+
 .mathclass {
-	font-size: 0.55rem;
-	overflow-y: hidden;
-	overflow-x: auto;
-	table-layout:fixed;
-	height: 99%;
-	width: 99%;
-}
-#mathtable{
-	display: table; /*table works well as a value also */
-	max-width: 100%;
-	overflow-y: hidden;
-	overflow-x: scroll;	
+  font-size: 0.55rem;
+  overflow-y: hidden;
+  overflow-x: auto;
+  table-layout: fixed;
+  height: 99%;
+  width: 99%;
 }
 
-.foil p{
-	text-align: left;
+#mathtable {
+  display: table;
+  /*table works well as a value also */
+  max-width: 100%;
+  overflow-y: hidden;
+  overflow-x: scroll;
 }
+
+.foil p {
+  text-align: left;
+}
+
 .hi {
-	background-color: #9f8;
+  background-color: #9f8;
 }
-.mytab {
-	padding-left: 1rem;
-}
-#quadformula {
-	 width: 6em;  /*20px % causes llama dims to change with screen resize */
-     height: 4em; /*fix aspect ratio and don't interfere with text */
-    background: url(../images/quadratic_formula.png) no-repeat;
-/*	width: 20px; /* % causes llama dims to change with screen resize */
-/*    height: 36px;/* fix aspect ratio and don't interfere with text */
-	bottom: 10px;   
-    right: -2px; /* end up on some random place on bottom without this */
-   background-size: 100%  100%;/* doesn't show up without this */
-   position: relative; 
-   display:  inline-block;
-   border: 1px solid #333
 
+.mytab {
+  padding-left: 1rem;
 }
+
+#quadformula {
+  width: 6em;
+  /*20px % causes llama dims to change with screen resize */
+  height: 4em;
+  /*fix aspect ratio and don't interfere with text */
+  background: url(../images/quadratic_formula.png) no-repeat;
+  /*	width: 20px; /* % causes llama dims to change with screen resize */
+  /*    height: 36px;/* fix aspect ratio and don't interfere with text */
+  bottom: 10px;
+  right: -2px;
+  /* end up on some random place on bottom without this */
+  background-size: 100% 100%;
+  /* doesn't show up without this */
+  position: relative;
+  display: inline-block;
+  border: 1px solid #333
+}
+
 sup {
-	font-size: 50%;
+  font-size: 50%;
 }
+
 #ytvid {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 10px;
-	height: 0;
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 10px;
+  height: 0;
 }
+
 #ytvid iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
+
 
 /* canvas::before{
 	margin-bottom:2%;
 }
 */
+
 canvas {
-  margin: auto; 
+  margin: auto;
   display: block;
   padding-top: 2em;
 }
+
 input[type=number] {
-	width: 3rem;
+  width: 3rem;
 }
+
+
 /*
 #myCanvas {
 	border: 1px solid black;
@@ -280,108 +356,148 @@ input[type=number] {
 }
 
 	*/
+
+
 /* Footer formatting */
+
 .footer {
-position: relative;
-}	
-footer p { 
-font-size: 50%;
+  position: relative;
 }
+
+footer p {
+  font-size: 50%;
+}
+
+
 /* accidentally fixed the llama to the bottom right of the screen. Keeper! */
+
 #myllama0 {
-	width: 1.5em; /* 20px % causes llama dims to change with screen resize */
-    height: 2.7em;/* fix aspect ratio and don't interfere with text */
-    background: url(../images/spritesheet.png) no-repeat;
-	 bottom: 10px;   
-    right: -2px; /* end up on some random place on bottom without this */
-   background-size: 800%  450%;/* doesn't show up without this */
-   position: inline-block;
-   background-position: -4px -22px;
-   zoom:1.0;
+  width: 1.5em;
+  /* 20px % causes llama dims to change with screen resize */
+  height: 2.7em;
+  /* fix aspect ratio and don't interfere with text */
+  background: url(../images/spritesheet.png) no-repeat;
+  bottom: 10px;
+  right: -2px;
+  /* end up on some random place on bottom without this */
+  background-size: 800% 450%;
+  /* doesn't show up without this */
+  position: inline-block;
+  background-position: -4px -22px;
+  zoom: 1.0;
 }
 
 #myllama1 {
-	width: 1.5em; /* 20px % causes llama dims to change with screen resize */
-    height: 2.7em;/* fix aspect ratio and don't interfere with text */
-    background: url(../images/spritesheet.png) no-repeat;
-	 bottom: 10px;   
-    right: -2px; /* end up on some random place on bottom without this */
-   background-size: 800%  450%;/* doesn't show up without this */
-   position: fixed;
-   background-position: -267px -120px;
-   zoom:1.0;
+  width: 1.5em;
+  /* 20px % causes llama dims to change with screen resize */
+  height: 2.7em;
+  /* fix aspect ratio and don't interfere with text */
+  background: url(../images/spritesheet.png) no-repeat;
+  bottom: 10px;
+  right: -2px;
+  /* end up on some random place on bottom without this */
+  background-size: 800% 450%;
+  /* doesn't show up without this */
+  position: fixed;
+  background-position: -267px -120px;
+  zoom: 1.0;
 }
 
 #myllama1a {
-	width: 0.1vw; /* 20px % causes llama dims to change with screen resize */
-    height: 2.7em;/* fix aspect ratio and don't interfere with text */
-    background: url(../images/spritesheet.png) no-repeat;
-	 bottom: 10px;   
-    right: -2px; /* end up on some random place on bottom without this */
-   background-size: 800%  450%;/* doesn't show up without this */
-   position: fixed;
-   background-position: -267px -120px;
-   zoom:1.0;
+  width: 0.1vw;
+  /* 20px % causes llama dims to change with screen resize */
+  height: 2.7em;
+  /* fix aspect ratio and don't interfere with text */
+  background: url(../images/spritesheet.png) no-repeat;
+  bottom: 10px;
+  right: -2px;
+  /* end up on some random place on bottom without this */
+  background-size: 800% 450%;
+  /* doesn't show up without this */
+  position: fixed;
+  background-position: -267px -120px;
+  zoom: 1.0;
 }
+
 #myllama2 {
-	width: 1.5em; /* 20px % causes llama dims to change with screen resize */
-    height: 2.7em;/* fix aspect ratio and don't interfere with text */
-    background: url(../images/spritesheet.png) no-repeat;
-	 bottom: 10px;   
-    right: -2px; /* end up on some random place on bottom without this */
-   background-size: 800%  450%;/* doesn't show up without this */
-   position: fixed;
-   background-position: -76px -22px;
-   zoom:1.0;
+  width: 1.5em;
+  /* 20px % causes llama dims to change with screen resize */
+  height: 2.7em;
+  /* fix aspect ratio and don't interfere with text */
+  background: url(../images/spritesheet.png) no-repeat;
+  bottom: 10px;
+  right: -2px;
+  /* end up on some random place on bottom without this */
+  background-size: 800% 450%;
+  /* doesn't show up without this */
+  position: fixed;
+  background-position: -77px -15px;
+  zoom: 1.0;
 }
+
 #myllama3 {
-	width: 1.5em; /* 20px % causes llama dims to change with screen resize */
-    height: 2.7em;/* fix aspect ratio and don't interfere with text */
-    background: url(../images/spritesheet.png) no-repeat;
-	 bottom: 10px;   
-    right: -2px; /* end up on some random place on bottom without this */
-   background-size: 800%  450%;/* doesn't show up without this */
-   position: fixed;
-   background-position: -40px -22px;
-   zoom:1.0;
+  width: 1.5em;
+  /* 20px % causes llama dims to change with screen resize */
+  height: 2.7em;
+  /* fix aspect ratio and don't interfere with text */
+  background: url(../images/spritesheet.png) no-repeat;
+  bottom: 10px;
+  right: -2px;
+  /* end up on some random place on bottom without this */
+  background-size: 800% 450%;
+  /* doesn't show up without this */
+  position: fixed;
+  background-position: -40px -22px;
+  zoom: 1.0;
 }
 
 #myllama4 {
-	width: 1.5em; /* 20px % causes llama dims to change with screen resize */
-    height: 2.7em;/* fix aspect ratio and don't interfere with text */
-    background: url(../images/spritesheet.png) no-repeat;
-	 bottom: 10px;   
-    right: -2px; /* end up on some random place on bottom without this */
-   background-size: 800%  450%;/* doesn't show up without this */
-   position: fixed;
-   background-position: -40px -115px;
-   zoom:1.0;
+  width: 1.5em;
+  /* 20px % causes llama dims to change with screen resize */
+  height: 2.7em;
+  /* fix aspect ratio and don't interfere with text */
+  background: url(../images/spritesheet.png) no-repeat;
+  bottom: 10px;
+  right: -2px;
+  /* end up on some random place on bottom without this */
+  background-size: 800% 450%;
+  /* doesn't show up without this */
+  position: fixed;
+  background-position: -40px -115px;
+  zoom: 1.0;
 }
 
 #myllama4 {
-	width: 1.5em; /* 20px % causes llama dims to change with screen resize */
-    height: 2.7em;/* fix aspect ratio and don't interfere with text */
-    background: url(../images/spritesheet.png) no-repeat;
-	 bottom: 10px;   
-    right: -2px; /* end up on some random place on bottom without this */
-   background-size: 800%  450%;/* doesn't show up without this */
-   position: fixed;
-   background-position: -112px -22px;
-   zoom:1.0;
+  width: 1.5em;
+  /* 20px % causes llama dims to change with screen resize */
+  height: 2.7em;
+  /* fix aspect ratio and don't interfere with text */
+  background: url(../images/spritesheet.png) no-repeat;
+  bottom: 10px;
+  right: -2px;
+  /* end up on some random place on bottom without this */
+  background-size: 800% 450%;
+  /* doesn't show up without this */
+  position: fixed;
+  background-position: -112px -22px;
+  zoom: 1.0;
 }
 
-.llamalove { 
-	display:  flex;
+.llamalove {
+  display: flex;
 }
 
 #ll0 {
-	width: 3.1em; /* 20px % causes llama dims to change with screen resize */
-    height: 4.1em;/* fix aspect ratio and don't interfere with text */
-    background: url(../images/spritesheet.png) no-repeat;
-	 bottom: 10px;   
-    right: -2px; /* end up on some random place on bottom without this */
-   background-size: 400%  400%;/* doesn't show up without this */
-   background-position: -220px -20px;
-   zoom:1.4;
+  width: 3.1em;
+  /* 20px % causes llama dims to change with screen resize */
+  height: 4.1em;
+  /* fix aspect ratio and don't interfere with text */
+  background: url(../images/spritesheet.png) no-repeat;
+  bottom: 10px;
+  right: -2px;
+  /* end up on some random place on bottom without this */
+  background-size: 400% 400%;
+  /* doesn't show up without this */
+  background-position: -220px -20px;
+  zoom: 1.4;
 }
-
