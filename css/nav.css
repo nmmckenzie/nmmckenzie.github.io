@@ -402,8 +402,7 @@ footer p {
 }
 
 @media screen and (max-width: 480px) {
-    body details div p{
-        font-size: 2vw;
+    body, details, div, p{
 		font-family: Tahoma, sans-serif;
 		padding-left: 1vw;
 		padding-right: 1vw;
@@ -413,17 +412,30 @@ footer p {
   font-family: Tahoma, Geneva, sans-serif;
   font-size: 2vw;
   margin-top: 2vw;
+  max-width: 80%;
 }
 	details>summary:first-child {
   font-size: 2vw;
 }
-.mathclass {
+.mathclass, button, td, th, tr,body,
+details,div, p{
 	font-size: 2vw;
 }
-button {
-	font-size: 2vw;
+
+footer , small{
+	font-size: 40%;
+	font-size; 7px;
+	font-size: 1vw;
 }
-footer p  small{
-	font-size: 50%;
+#quadformula {
+  width: 6em;
+  height: 4em;
+  background: url(../images/quadratic_formula.png) no-repeat;
+  bottom: 10px;
+  right: -2px;
+  background-size: 150% 150%;
+  position: relative;
+  display: inline-block;
+  border: 1px solid #333
 }
 }
