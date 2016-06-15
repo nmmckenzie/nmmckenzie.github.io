@@ -422,18 +422,18 @@ details,div, p{
 	font-size: 2vw;
 }
 
-footer , small{
+footer {
 	font-size: 40%;
 	font-size; 7px;
 	font-size: 1vw;
 }
 #quadformula {
-  width: 6em;
-  height: 4em;
+  width: 8em;
+  height: 6em;
   background: url(../images/quadratic_formula.png) no-repeat;
   bottom: 10px;
   right: -2px;
-  background-size: 150% 150%;
+  background-size: 100% 100%;
   position: relative;
   display: inline-block;
   border: 1px solid #333
