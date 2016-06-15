@@ -409,4 +409,17 @@ footer p {
 		padding-right: 1vw;
 		margin: 1vw;
     }
+	details {
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 2vw;
+}
+	details>summary:first-child {
+  font-size: 2vw;
+}
+.mathclass {
+	font-size: 1vw;
+}
+button {
+	font-size: 1vw;
+}
 }
