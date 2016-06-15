@@ -444,5 +444,20 @@ small {
 input[type=number] {
   width: 2rem;
 }
+#quadformula {
+  width: 6em;
+  height: 4em;
+  background: url(../images/quadratic_formula.png) no-repeat;
+  bottom: 10px;
+  right: -2px;
+  margin-top: 2vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  background-size: 100% 100%;
+  position: relative;
+  display: inline-block;
+  border: 1px solid #333
+}
+
 
 }
