@@ -7,8 +7,6 @@ article,
 aside,
 details,
 figcaption,
-figure,
-footer,
 div,
 p,
 h1,
@@ -25,7 +23,16 @@ nav,
 }
 section { font-size: 2vw; }
 
-
+figure,
+footer { font-size: 1.10em;}
+* {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  text-align: center;
+   font-size: 1.10em;
+   font-family: Tahoma, sans-serif;
+}
 
 body {
   font-size: 100%;	  /*/* 1.10em100%;*/
@@ -68,14 +75,6 @@ table {
   zoom: 1;
 }
 
-* {
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
-  text-align: center;
-   font-size: 1.10em;
-   font-family: Tahoma, sans-serif;
-}
 
 
 /* Nicola 
@@ -265,6 +264,8 @@ tbody {
 #quadformula {
   width: 6em;
   height: 4em;
+  padding-top: 1vw;
+  padding-top: 1vw;
   background: url(../images/quadratic_formula.png) no-repeat;
   bottom: 10px;
   right: -2px;
@@ -447,6 +448,8 @@ small {
   bottom: 10px;
   right: -2px;
   margin-top: 1vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
   background-size: 100% 100%;
   position: relative;
   display: inline-block;
