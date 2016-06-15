@@ -403,7 +403,7 @@ footer p {
 
 @media screen and (max-width: 480px) {
     body details div p{
-        font-size: 100%;
+        font-size: 2vw;
 		font-family: Tahoma, sans-serif;
 		padding-left: 1vw;
 		padding-right: 1vw;
@@ -423,7 +423,7 @@ footer p {
 button {
 	font-size: 2vw;
 }
-footer p {
+footer p  small{
 	font-size: 50%;
 }
 }
