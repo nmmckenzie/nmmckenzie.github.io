@@ -98,7 +98,6 @@ table {
   margin-bottom: 1%;
   background-color: none;
   list-style-type: none;
-  /* remove bullets */
 }
 
 .nav ul {
@@ -110,9 +109,7 @@ table {
 .nav li {
   display: inline;
   padding-left: 1em;
-  /* better spacing than 3% */
   padding-right: 1em;
-  /* background-color: yellow; /*#f9f9fd make the background ghostwhite */
 }
 
 .nav a {
@@ -144,10 +141,7 @@ table {
 }
 
 .btn:hover {
-  /* color: blue;
-	font-weight: bold;*/
   background-color: maroon;
-  /* #f9f9fd;*/
 }
 
 
@@ -467,4 +461,11 @@ footer p {
   background-size: 400% 400%;
   background-position: -220px -20px;
   zoom: 1.4;
+}
+
+@media screen and (min-width: 480px) {
+    body {
+        font-size: 80%;
+		font-family: Tahoma, sans-serif;
+    }
 }
