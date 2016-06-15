@@ -412,14 +412,18 @@ footer p {
 	details {
   font-family: Tahoma, Geneva, sans-serif;
   font-size: 2vw;
+  margin-top: 2vw;
 }
 	details>summary:first-child {
   font-size: 2vw;
 }
 .mathclass {
-	font-size: 1vw;
+	font-size: 2vw;
 }
 button {
-	font-size: 1vw;
+	font-size: 2vw;
+}
+footer p {
+	font-size: 50%;
 }
 }
