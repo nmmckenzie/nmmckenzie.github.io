@@ -420,18 +420,17 @@ footer p {
 }
 .mathclass, button, td, th, tr,body,
 details,div, p{
-	font-size: 3vw;
+	font-size: 80%;
+	font-size: 2vw;
 }
 
 footer {
 	font-size: 40%;
-	font-size; 7px;
+	font-size: 8px;
 	font-size: 1vw;
 }
 footer p {
-	/* position: fixed;*/
 	margin-top: 2vw;
-  font-size: 40%;
 }
 #quadformula {
   width: 8em;
