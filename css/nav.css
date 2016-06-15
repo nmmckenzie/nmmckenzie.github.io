@@ -426,6 +426,7 @@ footer p {
 details,div, p{
 	font-size: 80%;
 	font-size: 2vw;
+	font-size: 1.1em;
 }
 
 footer {
