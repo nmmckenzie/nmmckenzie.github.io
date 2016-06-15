@@ -101,6 +101,7 @@
       var bv = +document.getElementById("bval").value;
       var cv = +document.getElementById("cval").value;
       var pretty = document.getElementById("linecolor").value;
+	  canvas.style.display="block";
       resetGraph();
       var f = function f(x) {
         return (av * Math.pow(x, 2) + bv * x + cv);

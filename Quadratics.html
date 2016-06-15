@@ -12,7 +12,7 @@
 
 
   <title>Curves</title>
-  <link href="css/nav.css" rel="stylesheet" />
+
 </head>
 
 <body>
@@ -28,7 +28,6 @@
       </nav>
 
     </div>
-    <!-- header-->
 
     <section class="section">
       <div class="themiddle">
@@ -57,16 +56,14 @@
                 <tr>
                   <th>Opening?</th>
                   <td>a=0 this is a line</td>
-                  <td>a>0 curve opens up </td>
-                  <td>a
-                    <0 curve opens down </td>
+                  <td>a &gt; 0 curve opens up </td>
+                  <td>a &lt; 0 curve opens down </td>
                 </tr>
                 <tr>
                   <th>Distortion?</th>
                   <td>a=1 no distortion</td>
-                  <td>a>1 curve widens </td>
-                  <td>a
-                    <1 curve narrows</td>
+                  <td>a &gt; 1 curve widens </td>
+                  <td>a &lt; 1 curve narrows</td>
                 </tr>
               </tbody>
             </table>
@@ -108,7 +105,9 @@
             </table>
           </div>
           <br>
-          <h3>FOIL</h3>
+		  		                <details>
+        <summary><h3>FOIL</h3></summary>
+     
           <p>FOILing is a useful tool for moving between equivalent forms of the quadratic function. While I think of FOIL as my path between all three, some students like to think of FOIL as expanding the factored form to get standard form and use Reverse
             FOIL to go from standard to factored.
           </p>
@@ -121,8 +120,11 @@
             <p><em class="hi">I</em> nside <a class="mytab">y = a(x <a class="hi">-r</a>)(<a class="hi">x</a> -s) = a [( x∙x)+(x∙-s)+(-r∙x) …]</p>
             <p><em class="hi">L</em> ast <a class="mytab">y = a(x <a class="hi">-r</a>)(x <a class="hi">-s</a>) = a [( x∙x)+(x∙-s)+(-r∙x)+(-r∙-s)]</p>
           </div>
-          <br>
-          <h3>Roots</h3>
+		  </details>
+ 
+		                <details>
+        <summary><h3>Roots</h3></summary>
+          
           <p>Zeroes, solutions, or roots of a quadratic function are those values of x that result in 0 for y. The co-ordinates of REAL roots take the form (x,0), so these would fall on the x-axis.</p>
 
           <h3>Find Roots using the Quadratic Formula</h3>
@@ -137,7 +139,9 @@
 		</iframe>
           </div>
           <br>
-          <p></p>
+		  </details>
+              <details>
+        <summary><h3>Draw Curves!</h3></summary>
           <p> Oh, yeah! You can plot your own quadratics below. The graph only goes from -10 to +10, so choose your integer values for a, b and c carefully.</p>
           <p>The values are set for: y=x<sup>2</sup>-4<a class="mytab">so : a= 1,  b= 0,  c= -4</p>
 	<p></p>
@@ -147,7 +151,7 @@
 			a = <input type="number" id="aval"  value="1"/>
 			b = <input type="number" id="bval"  value="-0"/>
 			c = <input type="number" id="cval"  value="-4"/>
-			color = <input type="color" id="linecolor" />
+			color = <input type="color" id="linecolor" value="black" />
         <button id="drawCurve" >Draw Curve</button>
 		  <button id="clearGraph" > Clear Graph</button>
 
@@ -156,9 +160,9 @@
 <canvas id="myCanvas" width="600" height="600">
   <p>I'm sorry, but your browser was unable to display this content.</p>
 </canvas>
+</details>
 <p>There's so much more that we can do with this! If you'd like to <a href="Contact.html"> Learn More</a> we'd be happy to help!</p>
       </div>
-      <!-- /details -->
 
     </section>
     <aside>
@@ -182,10 +186,9 @@
     </footer>
 
   </div>
-  <!-- /container -->
 
-  <!-- jQuery  -->
-  <script src="bower_components/better-dom/dist/better-dom.js"></script>
+   <link href="css/nav.css" rel="stylesheet" />
+  <script src="bower_components/better-dom/dist/better-dom.min.js"></script>
   <script src="bower_components/better-details-polyfill/dist/better-details-polyfill.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="js/index.js"></script>
