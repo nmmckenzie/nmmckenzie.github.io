@@ -412,6 +412,7 @@ footer p {
   font-family: Tahoma, Geneva, sans-serif;
   font-size: 2vw;
   margin-top: 2vw;
+  padding-top: 2vw;
   max-width: 80%;
 }
 	details>summary:first-child {
@@ -419,13 +420,18 @@ footer p {
 }
 .mathclass, button, td, th, tr,body,
 details,div, p{
-	font-size: 2vw;
+	font-size: 3vw;
 }
 
 footer {
 	font-size: 40%;
 	font-size; 7px;
 	font-size: 1vw;
+}
+footer p {
+	/* position: fixed;*/
+	margin-top: 2vw;
+  font-size: 40%;
 }
 #quadformula {
   width: 8em;
