@@ -402,6 +402,9 @@ footer p {
 }
 
 @media screen and (max-width: 480px) {
+	*{
+	max-width: 100%;}
+	
     body, details, div, p{
 		font-family: Tahoma, sans-serif;
 		padding-left: 1vw;
@@ -434,6 +437,9 @@ footer p {
 	margin-top: 2vw;
 	font-size: 1.10em;
 }
+small {
+	font-size: 60%;
+}
 #quadformula {
   width: 6em;
   height: 4em;
@@ -446,4 +452,8 @@ footer p {
   display: inline-block;
   border: 1px solid #333
 }
+input[type=number] {
+  width: 2rem;
+}
+
 }
