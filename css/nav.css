@@ -480,5 +480,7 @@ footer p {
     body {
         font-size: 80%;
 		font-family: Tahoma, sans-serif;
+		padding-left: 1vw;
+		padding-right: 1vw;
     }
 }
