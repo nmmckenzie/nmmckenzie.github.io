@@ -19,18 +19,21 @@ menu,
 nav,
 section {
   display: block;
+  font-family: Tahoma, sans-serif;
+  font-size: 2vw;
 }
 
 body {
   font-size: 100%;	  /*/* 1.10em100%;*/
   line-height: 1;
+  margin: 0;
 }
 
 ol,
 ul {
   list-style: none;
-  margin-left: 3em;
-  margin-right: 3em;
+  margin-left: 1em;
+  margin-right: 1em;
   padding-left: 0;
   padding-right: 0;
   list-style-position: outside;
@@ -67,11 +70,7 @@ table {
   border-radius: 6px;
   text-align: center;
    font-size: 1.10em;
-  /*  -webkit-box-sizing: border-box; /* padding and border of that element no longer increase its width */
-  /*-moz-box-sizing: border-box;
-          box-sizing: border-box; */
- /* font-size: 1.10em;
-   1vw;*/
+   font-family: Tahoma, sans-serif;
 }
 
 
@@ -109,8 +108,8 @@ table {
 }
 
 .nav ul {
-  margin-left: 3em;
-  margin-right: 3em;
+  margin-left: 1em;
+  margin-right: 1em;
   /* height: .9em; */
 }
 
@@ -162,10 +161,10 @@ table {
 
 .themiddle {
   background-color: #c5dfbf;
-  margin-left: 3em;
+  margin-left: 1em;
   /* center this block */
-  margin-right: 3em;
-  max-width: 80%;
+  margin-right: 1em;
+  max-width: 90%;
   overflow-y: hidden;
   overflow-x: auto;
 }
@@ -184,12 +183,12 @@ table {
 
 .marketing {
   /* font-size: .9em; */
-  max-width: 80%;
+  max-width: 90%;
   background-color: #f9f9fd;
   overflow-y: hidden;
   overflow-x: auto;
-  margin-left: 3em;
-  margin-right: 3em;
+  margin-left: 1em;
+  margin-right: 1em;
   word-wrap: break-word;
 }
 
@@ -212,13 +211,13 @@ aside details{
 }
 
 details {
-  margin-bottom: 3em;
-  margin-top: 3em;
-  max-width: 80%;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  max-width: 90%;
   background-color: #f9f9fd; /* #c5dfbf; */
   font-family: Tahoma, Geneva, sans-serif;
   font-size: 1em;
-  margin-left: 3.25em;
+  margin-left: 2vw;
 }
 
 details::before {
@@ -290,17 +289,11 @@ tbody {
 
 #quadformula {
   width: 6em;
-  /*20px % causes llama dims to change with screen resize */
   height: 4em;
-  /*fix aspect ratio and don't interfere with text */
   background: url(../images/quadratic_formula.png) no-repeat;
-  /*	width: 20px; /* % causes llama dims to change with screen resize */
-  /*    height: 36px;/* fix aspect ratio and don't interfere with text */
   bottom: 10px;
   right: -2px;
-  /* end up on some random place on bottom without this */
   background-size: 100% 100%;
-  /* doesn't show up without this */
   position: relative;
   display: inline-block;
   border: 1px solid #333
@@ -393,7 +386,7 @@ footer p {
   background-size: 800% 450%;
   /* doesn't show up without this */
   position: fixed;
-  background-position: -267px -120px;
+  background-position: -260px -110px;
   zoom: 1.0;
 }
 
@@ -482,5 +475,6 @@ footer p {
 		font-family: Tahoma, sans-serif;
 		padding-left: 1vw;
 		padding-right: 1vw;
+		margin: 1vw;
     }
 }
