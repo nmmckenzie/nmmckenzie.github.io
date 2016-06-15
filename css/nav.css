@@ -383,7 +383,7 @@ footer p {
   right: -2px;
   background-size: 800% 450%;
   position: fixed;
-  background-position: -112px -22px;
+  background-position: -120px -20px;
   zoom: 1.0;
 }
 
@@ -421,7 +421,7 @@ footer p {
   padding-top: 2vw;
   max-width: 80%;
 }
-	details>summary:first-child {
+	details>summary:first-child, .nav a{
   font-size: 2vw;
 }
 .mathclass, header, button, td, th, tr,body,
@@ -430,6 +430,7 @@ details,div, p{
 	font-size: 2vw;
 	font-size: 1.1em;
 }
+
 
 footer {
 	font-size: 40%;
@@ -442,7 +443,8 @@ footer p {
 	font-size: 1.10em;
 }
 small {
-	font-size: 60%;
+	font-size: 1vw;
+	font-size: 50%;
 }
 input[type=number] {
   width: 2rem;
