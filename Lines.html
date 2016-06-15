@@ -58,18 +58,27 @@ The slope (m)  is the slant or rate of change. It represents how much y will cha
 If m>0, the line goes up and to the right. If m<0, the line goes down and to the left.
 The intercept (b), is how much of y we have when x=0. It’s actually where the line cuts the y-axis, and is given by the point (0,b).
 </p>
+<p>Enter integer values between -10 and 10 for the slope and/or the intercept to draw your own line.</p>
+<p>The values are configured to draw: y=x+1 (m=1 and b=1).</p>
 <br>
-slope = <input type="text" id="slope" name="slope" value="1"/>
-        intercept = <input type="text" id="intercept" name="intercept" value="2"/>
-        <input type="button" name="Sumbit" value="Draw Line" onclick="reset();"/>
-<br>
+		<div class="mathclass">
+			slope = <input type="number" id="slope"  value="1"/>
+			intercept = <input type="number" id="intercept"  value="1"/>
+			purty = <input type="color" id="linecolor"  value="red"/>
+       <!-- <input type="button" name="Sumbit" value="Draw Line" onclick="reset();"/> </input>-->
+        <button id="drawLine" >Draw Line</button>
+		  <button id="clearGraph" > Clear Graph</button>
+
 		
+		  </div>
+
+</div>		
 <canvas id="myCanvas" width="500" height="500">
   <p>This is fallback content for users of assistive technologies or of browsers that don't have full support for the Canvas API.</p>
 </canvas>
-     </div>
+ 
 	<!-- /details -->
-     
+       <!-- </div>   -->
 </section>
 <aside>
   <details>

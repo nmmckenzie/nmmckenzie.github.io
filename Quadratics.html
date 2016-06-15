@@ -108,9 +108,23 @@
 	</div>
 	<br>
 	<p></p>
-	<p> Oh, yeah! Here's a graph of the quadratic function y=x<sup>2</sup>-6x+8</p>
+	<p> Oh, yeah! You can plot your own quadratics below. The graph only goes from -10 to +10, so choose your integer values for a, b and c carefully.</p>
+	<p>The values are set for: y=x<sup>2</sup>-4<a class="mytab">so : a= 1,  b= 0,  c= -4</p>
+	<p></p>
+	<p> </p>
 	<br>
-<canvas id="quadratic" width="500" height="500">
+			<div class="mathclass">
+			a = <input type="number" id="aval"  value="1"/>
+			b = <input type="number" id="bval"  value="-0"/>
+			c = <input type="number" id="cval"  value="-4"/>
+			color = <input type="color" id="linecolor"  value="red"/>
+       <!-- <input type="button" name="Sumbit" value="Draw Line" onclick="reset();"/> </input>-->
+        <button id="drawCurve1" >Draw Curve</button>
+		  <button id="clearGraph" > Clear Graph</button>
+
+		
+		  </div>
+<canvas id="myCanvas" width="500" height="500">
   <p>I'm sorry, but your browser was unable to display this content.</p>
 </canvas>
 <p>There's so much more that we can do with this! If you'd like to <a href="Contact.html"> Learn More</a> we'd be happy to help!</p>

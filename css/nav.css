@@ -220,6 +220,7 @@ tbody {
 	overflow-y: hidden;
 	overflow-x: scroll;	
 }
+
 .foil p{
 	text-align: left;
 }
@@ -243,6 +244,9 @@ tbody {
    border: 1px solid #333
 
 }
+sup {
+	font-size: 50%;
+}
 #ytvid {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
@@ -264,6 +268,10 @@ tbody {
 canvas {
   margin: auto; 
   display: block;
+  padding-top: 2em;
+}
+input[type=number] {
+	width: 3rem;
 }
 /*
 #myCanvas {

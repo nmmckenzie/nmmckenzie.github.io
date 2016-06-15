@@ -45,10 +45,19 @@ var XRANGE = XMAX - XMIN;
 	
 
 
-function clear() {
+function clears() {
+	ctx.save();
+	ctx.setTransform(1,0,0,1,0,0);
 	ctx.clearRect(XMIN, XMIN, XRANGE, XRANGE);
+	//ctx.restore();
 }
 
+function clearsAll() {
+	ctx.setTransform(1, 0, 0, 1, 0, 0);
+ ctx.clearRect(0, 0, canvas.width, canvas.height);
+ //$('.equation').remove();
+ 
+}
 function drawAxes() {
 	ctx.save()
 	ctx.translate(canvas.width / 2, canvas.height / 2);
@@ -64,26 +73,48 @@ ctx.scale(scaleFactor, -scaleFactor);
 	ctx.closePath();
 }
 
-function reset() {
-//	clear();
+function resetGraph() {
+	clears();
 	renderGrid(25);
 	drawAxes();
-	// plotF();
-	//drawPoint();
-	drawLine1(1,4);
+
 }
 
 
 	
-function drawLine1(slope,intercept) {
+function drawLine(slope,intercept,color) {
  
   //document.write('slope');
   var m = parseInt(slope);
   var b = parseInt(intercept);
-  ctx.strokeStyle = "red";
+  ctx.strokeStyle = color;
   	ctx.lineWidth = 2 / scaleFactor;
   ctx.beginPath();
   ctx.moveTo(0,b);
-  ctx.lineTo(b/m,0);
+  ctx.lineTo(XMIN,((m*XMIN)+b));
+  ctx.lineTo(XMAX,((m*XMAX)+b));
   ctx.stroke();
 }
+
+
+	
+
+$(document).ready(function() {
+	$('#drawLine').click(function() {
+		var slp = +document.getElementById("slope").value;
+		var icept = +document.getElementById("intercept").value;
+		var pretty = document.getElementById("linecolor").value;
+	//	var eqn = $('<p> y = '+slp+'x + '+icept+'</p>');
+		//$('.equation').after(eqn);
+		//alert($('slp'));
+		resetGraph();
+		
+	drawLine(slp,icept,pretty);
+	
+	
+	});
+		$('#clearGraph').click(function() {
+		resetGraph();
+		clearsAll();
+	});
+});
