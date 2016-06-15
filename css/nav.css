@@ -241,7 +241,8 @@ tr {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
-  font-size: 0.75rem
+  font-size: 1vw;
+  font-size: 0.75rem;
 }
 
 thead {
@@ -329,6 +330,7 @@ canvas {
   margin: auto;
   display: none; /* block; */
   padding-top: 2em;
+  max-width:90%;
 }
 
 input[type=number] {
