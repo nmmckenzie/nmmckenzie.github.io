@@ -404,7 +404,9 @@ footer p {
 
 @media screen and (max-width: 480px) {
 	*{
-	max-width: 100%;}
+	max-width: 100%;
+	font-size: 1.10em;
+	font-size: 3vw;}
 	
     body, details, div, p{
 		font-family: Tahoma, sans-serif;
